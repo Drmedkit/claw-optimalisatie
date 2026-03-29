@@ -1,0 +1,237 @@
+Ik wil een nieuwe SEO-pagina toevoegen aan de website voor:
+
+Pagina: WWS Puntentelling
+
+Doel van deze opdracht:
+Maak een nieuwe landingspagina die SEO-technisch sterk is opgebouwd en gericht is op zoekwoorden zoals:
+- WWS puntentelling
+- huurpuntentelling
+- puntentelling woning
+- maximale huurprijs berekenen
+
+De pagina moet duidelijk, persoonlijk, betrouwbaar en conversiegericht zijn. De stijl moet perfect aansluiten op de rest van de website.
+
+Belangrijk:
+- Pas geen andere bestaande pagina-inhoud aan
+- Voeg alleen deze nieuwe pagina toe en zorg dat de interne linking klopt
+- Houd het ontwerp consistent met de rest van de website
+- Snel, overzichtelijk en clean houden
+- Geen video toevoegen
+- Zelfde hero-opzet gebruiken als andere dienstenpagina’s
+- Gebruik dezelfde hero-afbeelding als op andere pagina’s voor performance en consistentie
+
+Design / stijl:
+- Zelfde style als de rest van de website
+- Clean, modern en persoonlijk
+- Zelfde tone of voice als de andere dienstenpagina’s
+- Zelfde opbouw/logica als de energielabel-pagina
+- Geen drukke elementen
+
+Navigatie / linking:
+1. Footer:
+- Voeg onder “Onze diensten” een nieuwe link toe:
+  WWS Puntentelling
+
+2. Homepage:
+- Zorg dat in het dienstenblok op de homepage “WWS puntentelling” aanklikbaar is
+- Deze klik moet verwijzen naar de nieuwe WWS Puntentelling-pagina
+
+3. Belangrijk:
+- Geen andere navigatie-items veranderen
+- Geen bestaande pagina’s inhoudelijk aanpassen
+- Alleen de nieuwe pagina toevoegen en correct koppelen in footer + homepage dienstenblok
+
+SEO-richting:
+Deze pagina moet geoptimaliseerd worden rondom:
+- WWS puntentelling
+- huurpuntentelling
+- puntentelling woning
+- maximale huurprijs berekenen
+- maximale huurprijs woning
+- huurpunten berekenen
+
+Gebruik deze termen natuurlijk in:
+- title tag
+- meta description
+- H1
+- H2’s
+- intro
+- bodytekst
+- FAQ
+
+URL:
+Maak een SEO-vriendelijke URL, bijvoorbeeld:
+/wws-puntentelling/
+
+Meta title:
+Maak een sterke SEO-title van ongeveer 55–60 tekens, bijvoorbeeld:
+WWS Puntentelling | Maximale Huurprijs Berekenen
+
+Meta description:
+Schrijf een converterende meta description van ongeveer 150–160 tekens met hoofdzoekwoord en CTA.
+
+Pagina-opbouw / copy:
+Gebruik onderstaande tekst als basis, maar optimaliseer waar nodig licht voor SEO, leesbaarheid en conversie. Houd de tekst persoonlijk en natuurlijk. Niet te commercieel, maar wel duidelijk gericht op actie.
+
+H1
+WWS puntentelling laten uitvoeren
+
+Intro
+Wil je een WWS puntentelling laten uitvoeren? Ik help je snel en persoonlijk verder met een correcte berekening van de huurpunten en maximale huurprijs. Geen standaard berekening, maar een zorgvuldige opname en duidelijke uitleg van de uitkomst.
+
+H2
+Wat is een WWS puntentelling?
+
+De WWS puntentelling (Woningwaarderingsstelsel) bepaalt de maximale huurprijs van een woning. Op basis van verschillende onderdelen, zoals oppervlakte, energielabel, voorzieningen en locatie, wordt een puntentotaal berekend.
+
+Dit puntentotaal bepaalt of een woning in de sociale huur of vrije sector valt en wat de maximale huurprijs mag zijn.
+
+H2
+Waarom is een puntentelling belangrijk?
+
+Een correcte puntentelling voorkomt problemen en geeft duidelijkheid over de huurprijs.
+
+- inzicht in de maximale huurprijs
+- zekerheid bij verhuur
+- voorkomt discussies of boetes
+- belangrijk bij nieuwe regelgeving
+
+Zeker in steden zoals Amsterdam is een juiste puntentelling essentieel.
+
+H2
+Wanneer heb je een WWS puntentelling nodig?
+
+Een puntentelling is relevant bij:
+- verhuur van een woning
+- aankoop van een beleggingspand
+- herziening van huurprijzen
+- controle op bestaande huurcontracten
+- nieuwe regelgeving of wijzigingen
+
+H2
+Hoe werkt een puntentelling?
+
+Het proces is overzichtelijk:
+1. Je zet de opdracht uit via het opdrachtvenster
+2. Ik neem contact op voor de afspraak
+3. Ik voer een opname uit van de woning
+4. Je ontvangt een volledig rapport met puntentelling en maximale huurprijs
+
+Tijdens dit proces heb je direct contact met mij.
+
+H2
+Hoe snel is een puntentelling geregeld?
+
+- Vaak binnen 48 uur geregeld
+- Altijd binnen 5 werkdagen
+- Spoed mogelijk in overleg
+
+H2
+Wat kost een WWS puntentelling?
+
+De kosten zijn afhankelijk van de woning en de complexiteit.
+
+👉 Jouw pakketprijs berekenen
+(link naar homepage of juiste contact/pakket-sectie)
+
+Voor meerdere woningen of combinaties met andere diensten kun je contact opnemen.
+
+H2
+Waarom kiezen voor Label & Lens?
+
+Onze werkwijze:
+Geen massaproces, maar persoonlijk, duidelijk en goed geregeld.
+
+Persoonlijk contact
+Direct contact met mij als adviseur en uitvoerder.
+
+Snel
+Vaak binnen 48 uur geregeld en altijd binnen 5 werkdagen.
+
+Eén partner
+Alles onder één dak. Eén aanspreekpunt.
+
+Uitgebreide opname
+Ik kijk verder dan alleen de basis en doe waar nodig extra onderzoek.
+
+Advies op maat
+Gericht advies op basis van jouw situatie en plannen.
+
+Flexibel
+Ook op korte termijn mogelijk.
+
+H2
+Gecertificeerd en betrouwbaar
+
+Gecertificeerd en werkzaam volgens de geldende richtlijnen. Door regelmatige bijscholing werk ik altijd volgens de meest actuele regelgeving.
+
+H2
+Voor wie is een puntentelling interessant?
+
+- beleggers
+- verhuurders
+- makelaars
+- vastgoedprofessionals
+- particuliere eigenaren
+
+H2
+Veelgestelde vragen
+
+Vraag 1:
+Wat is de maximale huurprijs?
+Antwoord:
+Dit wordt bepaald op basis van de puntentelling.
+
+Vraag 2:
+Wanneer valt een woning in de vrije sector?
+Antwoord:
+Bij voldoende punten boven de liberalisatiegrens.
+
+Vraag 3:
+Kan een huurprijs aangepast worden?
+Antwoord:
+Ja, afhankelijk van de puntentelling en regelgeving.
+
+Voeg deze FAQ uit tot een sterke SEO-sectie met ongeveer 5 vragen. Verwerk ook vragen zoals:
+- Hoe wordt een WWS puntentelling berekend?
+- Kan ik zelf de huurpunten van mijn woning berekenen?
+- Wanneer heb ik een puntentelling nodig?
+
+CTA-sectie onderaan:
+Puntentelling laten uitvoeren?
+Zet direct je opdracht uit of neem contact op.
+
+Buttons:
+- Opdracht uitzetten
+- WhatsApp
+- Bel / mail
+
+Extra SEO-instructies:
+- Zorg voor exact 1 H1
+- Gebruik nette H2-structuur
+- Verwerk zoekwoorden natuurlijk, niet spammen
+- Voeg interne links toe waar relevant naar:
+  - homepage
+  - energielabel-pagina
+  - contact of opdrachtpagina
+- Voeg alt-teksten toe aan afbeeldingen waar relevant
+- Zorg dat de pagina inhoudelijk sterk genoeg is voor SEO
+- Voeg FAQ schema markup toe als dat netjes kan
+- Voeg eventueel relevante service/local schema toe als dat zonder risico kan
+- Houd de pagina snel en licht
+
+Belangrijke conversiepunten:
+- Benoem duidelijk dat het persoonlijk is
+- Benoem snelheid: vaak binnen 48 uur, altijd binnen 5 werkdagen
+- Benoem duidelijkheid over maximale huurprijs
+- Houd CTA’s zichtbaar en logisch geplaatst
+- Laat de pagina betrouwbaar aanvoelen, zonder te zwaar of te commercieel te worden
+
+Opleveren:
+- Nieuwe SEO-pagina voor WWS Puntentelling
+- Correct werkende route/slug
+- Link in footer onder “Onze diensten”
+- Klikbare koppeling vanuit homepage dienstenblok naar deze pagina
+- Meta title en meta description ingevuld
+- SEO-vriendelijke FAQ toegevoegd
+- Geen wijzigingen aan andere bestaande pagina-inhoud, behalve de noodzakelijke links in footer en homepage dienstenblok

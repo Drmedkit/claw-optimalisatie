@@ -1,0 +1,229 @@
+Ik wil een nieuwe SEO-pagina toevoegen aan de website voor:
+
+Pagina: NEN 2580 Metingen
+
+Doel van deze opdracht:
+Maak een SEO-geoptimaliseerde landingspagina gericht op:
+- NEN 2580 meting
+- NEN 2580 meetrapport
+- woning inmeten
+- gebruiksoppervlakte berekenen
+- meetrapport woning
+- NEN 2580 Amsterdam
+
+De pagina moet:
+- persoonlijk zijn (ik-vorm)
+- duidelijk en betrouwbaar zijn
+- sterk gericht zijn op conversie
+- beter aansluiten op particuliere en makelaarsmarkt dan corporate concurrenten
+
+--------------------------------------------------
+
+BELANGRIJKE NAVIGATIE-INSTRUCTIES (DIT MOET CORRECT GEDAAN WORDEN):
+
+1. Footer:
+- Ga naar de footer
+- Zoek de sectie: “Onze diensten”
+- Voeg hier een NIEUWE link toe:
+  → NEN 2580 Metingen
+- Deze link moet verwijzen naar de nieuwe pagina (/nen-2580-metingen/)
+
+2. Homepage (dienstenblok):
+- Ga naar het dienstenblok op de homepage
+- Zorg dat “NEN 2580 metingen” daar zichtbaar is als dienst
+- Maak deze klikbaar
+- Deze moet verwijzen naar de nieuwe pagina (/nen-2580-metingen/)
+
+3. BELANGRIJK:
+- Verander GEEN andere pagina’s inhoudelijk
+- Verander GEEN bestaande navigatiestructuur
+- Voeg ALLEEN deze ene link toe in:
+  - footer
+  - homepage dienstenblok
+
+--------------------------------------------------
+
+Design / stijl:
+- Zelfde style als de rest van de website
+- Zelfde hero-opzet als andere dienstenpagina’s
+- Gebruik dezelfde hero-afbeelding (voor performance en consistentie)
+- Clean, modern en persoonlijk
+- Geen video
+
+--------------------------------------------------
+
+URL:
+/nen-2580-metingen/
+
+Meta title:
+NEN 2580 Meting Amsterdam | Woning Inmeten & Rapport
+
+Meta description:
+NEN 2580 meting in Amsterdam laten uitvoeren? Ontvang snel een professioneel meetrapport volgens de richtlijnen. Persoonlijk en binnen 5 werkdagen geregeld.
+
+--------------------------------------------------
+
+PAGINA CONTENT
+
+H1:
+NEN 2580 meting laten uitvoeren in Amsterdam
+
+Intro:
+Wil je een NEN 2580 meting laten uitvoeren in Amsterdam? Ik help je snel en persoonlijk met het professioneel inmeten van jouw woning of pand. Je ontvangt een duidelijk en betrouwbaar meetrapport volgens de officiële richtlijnen, zodat je precies weet wat de gebruiksoppervlakte is.
+
+--------------------------------------------------
+
+H2:
+Wat is een NEN 2580 meting?
+
+Een NEN 2580 meting is de officiële Nederlandse methode om de oppervlakte van een woning of pand te bepalen. Hierbij worden onder andere de gebruiksoppervlakte (GO), verhuurbare vloeroppervlakte (VVO) en bruto vloeroppervlakte (BVO) berekend volgens vaste regels.
+
+Dit zorgt voor een eenduidige en betrouwbare meting die gebruikt wordt bij verkoop, verhuur en taxaties.
+
+--------------------------------------------------
+
+H2:
+Waarom is een NEN 2580 meetrapport belangrijk?
+
+De oppervlakte van een woning heeft directe invloed op de waarde en huurprijs. Een kleine afwijking kan grote financiële gevolgen hebben.
+
+Met een NEN 2580 meetrapport:
+- voorkom je discussies over vierkante meters
+- voldoe je aan meetinstructies (zoals bij verkoop via makelaars / Funda)
+- heb je een betrouwbare basis voor huurprijs en waardebepaling
+- werk je volgens officiële richtlijnen
+
+--------------------------------------------------
+
+H2:
+Wat ontvang je bij een NEN 2580 meting?
+
+Je ontvangt een volledig en professioneel meetrapport, inclusief:
+
+- gebruiksoppervlakte (GO)
+- bruto vloeroppervlakte (BVO)
+- verhuurbaar vloeroppervlak (VVO)
+- duidelijke meetstaat
+- overzichtelijke plattegronden
+
+Alles volgens de geldende NEN 2580 norm.
+
+--------------------------------------------------
+
+H2:
+Wanneer heb je een NEN 2580 meting nodig?
+
+Een meting is relevant bij:
+- verkoop van een woning
+- verhuur van vastgoed
+- aankoop van een woning of beleggingspand
+- taxaties
+- splitsingen of herontwikkeling
+
+--------------------------------------------------
+
+H2:
+NEN 2580 meting in Amsterdam
+
+Ik voer NEN 2580 metingen uit in heel Amsterdam, waaronder Amsterdam Zuid, De Pijp, Oud-West en Amsterdam Noord.
+
+Door lokale kennis en korte lijnen kan ik snel schakelen en flexibel plannen.
+
+--------------------------------------------------
+
+H2:
+Hoe werkt het?
+
+1. Je zet de opdracht uit
+2. Ik neem contact op voor de afspraak
+3. Ik meet de woning zorgvuldig in op locatie
+4. Je ontvangt een volledig meetrapport
+
+Direct contact, geen tussenpersonen.
+
+--------------------------------------------------
+
+H2:
+Hoe snel is het geregeld?
+
+- Vaak binnen 48 uur ingepland
+- Altijd binnen 5 werkdagen geleverd
+- Spoed mogelijk in overleg
+
+--------------------------------------------------
+
+H2:
+Wat kost een NEN 2580 meting?
+
+De kosten zijn afhankelijk van de woning en de complexiteit.
+
+👉 Jouw pakketprijs berekenen
+
+Voor meerdere woningen of combinaties met andere diensten kun je contact opnemen.
+
+--------------------------------------------------
+
+H2:
+Waarom kiezen voor Label & Lens?
+
+Geen massaproces, maar persoonlijk en zorgvuldig.
+
+- Direct contact met mij
+- Snel en flexibel
+- Eén aanspreekpunt
+- Nauwkeurige meting volgens richtlijnen
+- Duidelijke rapportage
+- Gericht advies indien nodig
+
+--------------------------------------------------
+
+H2:
+Veelgestelde vragen
+
+Wat is een NEN 2580 meetrapport?
+Een rapport waarin de oppervlakte van een woning volgens de officiële norm wordt vastgesteld.
+
+Is een NEN 2580 meting verplicht?
+Bij verkoop via makelaars wordt deze meetmethode standaard gebruikt.
+
+Hoe wordt de oppervlakte berekend?
+Volgens vaste richtlijnen waarbij verschillende oppervlaktes worden onderscheiden.
+
+Kan ik zelf mijn woning inmeten?
+Voor officiële doeleinden wordt een professionele meting aanbevolen.
+
+Wat staat er in een meetrapport?
+Onder andere oppervlaktes, meetstaat en plattegronden.
+
+--------------------------------------------------
+
+CTA:
+
+NEN 2580 meting laten uitvoeren?
+Zet direct je opdracht uit of neem contact op.
+
+👉 Opdracht uitzetten
+👉 WhatsApp
+👉 Bel / mail
+
+--------------------------------------------------
+
+Extra SEO:
+- 1 duidelijke H1
+- Sterke H2 structuur
+- Interne links naar:
+  - energielabel
+  - WWS puntentelling
+  - homepage
+- FAQ schema toevoegen
+- Alt-teksten toevoegen
+- Pagina snel houden
+
+--------------------------------------------------
+
+Belangrijk einddoel:
+De pagina moet SEO-technisch sterk zijn én beter converteren dan concurrenten door:
+- persoonlijke aanpak
+- snelheid (48 uur / 5 werkdagen)
+- duidelijke output (meetrapport)
+- lokale focus (Amsterdam)

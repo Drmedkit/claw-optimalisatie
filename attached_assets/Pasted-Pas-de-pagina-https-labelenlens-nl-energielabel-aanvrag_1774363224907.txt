@@ -1,0 +1,78 @@
+Pas de pagina https://labelenlens.nl/energielabel-aanvragen-amsterdam/ aan met als doel betere SEO, maar verander zo min mogelijk aan de huidige look, tone of voice en opbouw.
+
+Belangrijk:
+- Houd de bestaande stijl, vormgeving en inhoud zoveel mogelijk intact.
+- Optimaliseer vooral de SEO-structuur, headings, metadata, interne relevantie en lokale zoekwoorden.
+- Maak geen complete redesign en herschrijf niet onnodig veel tekst.
+- Focus op het hoofdzoekwoord: “energielabel aanvragen amsterdam”.
+- Verwerk ook natuurlijke varianten zoals:
+  - energielabel amsterdam
+  - energielabel aanvragen in amsterdam
+  - energielabel woning amsterdam
+  - energielabel laten opmaken amsterdam
+  - energielabel verplicht amsterdam
+  - energielabel kosten amsterdam
+
+Extra belangrijk:
+- In Google wordt nu al gecommuniceerd dat Label & Lens “EPA-gecertificeerd” is en “binnen 5 werkdagen levert”.
+- Zorg dat deze elementen duidelijk en prominenter terugkomen op de pagina zelf (bij voorkeur bovenaan of in de eerste sectie), zonder dat het geforceerd aanvoelt.
+
+Voer deze verbeteringen door:
+
+1. Meta title optimaliseren:
+Zorg voor een sterke SEO title van max. ongeveer 60 tekens, bijvoorbeeld:
+Energielabel aanvragen Amsterdam | Label & Lens
+
+2. Meta description optimaliseren:
+Schrijf een pakkende meta description van ongeveer 150-160 tekens met hoofdzoekwoord, lokale relevantie en CTA.
+
+3. H1 verbeteren:
+Gebruik exact:
+Energielabel aanvragen in Amsterdam
+
+4. H2-structuur verbeteren zonder de pagina inhoudelijk te veel te wijzigen.
+Gebruik waar logisch duidelijke tussenkoppen zoals:
+- Wat kost een energielabel in Amsterdam?
+- Wanneer is een energielabel verplicht?
+- Hoe werkt een energielabel aanvragen?
+- Waarom kiezen voor Label & Lens in Amsterdam?
+
+5. Intro optimaliseren:
+Pas alleen de eerste alinea licht aan zodat het hoofdzoekwoord en de lokale relevantie duidelijker naar voren komen, zonder geforceerd te klinken.
+
+6. Lokale SEO versterken:
+Verwerk subtiel dat Label & Lens actief is in Amsterdam en eventueel in stadsdelen/wijken zoals Amsterdam Zuid, De Pijp, Oud-West, Amsterdam Noord, voor zover dat natuurlijk past.
+
+7. Interne links toevoegen waar relevant:
+Voeg logische interne links toe naar andere relevante diensten/pagina’s, zoals:
+- WWS puntentelling
+- verbeteradvies
+- homepage
+Gebruik natuurlijke anchor text.
+
+8. Conversie verbeteren zonder grote visuele wijziging:
+Zorg dat bovenaan of op een logische plek duidelijk naar voren komt:
+- EPA-gecertificeerd
+- levering binnen 5 werkdagen
+- geschikt voor verkoop en verhuur
+- duidelijke call-to-action (aanvraag / contact)
+
+9. FAQ-sectie toevoegen of optimaliseren als dat nog niet goed aanwezig is:
+Voeg een korte SEO-vriendelijke FAQ toe met 3-5 relevante vragen over energielabel aanvragen in Amsterdam.
+
+10. Technische SEO:
+- Controleer dat er maar 1 duidelijke H1 is
+- Zorg voor nette heading hiërarchie
+- Voeg alt-teksten toe aan afbeeldingen waar nodig
+- Controleer of de page copy niet te dun is voor SEO
+- Voeg waar mogelijk LocalBusiness of FAQ schema markup toe zonder de site te breken
+
+Belangrijk einddoel:
+De pagina moet SEO-technisch sterker worden voor lokale zoekopdrachten rondom “energielabel aanvragen Amsterdam”, maar wel aanvoelen als dezelfde pagina, niet als een compleet nieuwe versie.
+
+Lever op:
+- de aangepaste paginacopy
+- de nieuwe meta title
+- de nieuwe meta description
+- eventuele FAQ content
+- een korte opsomming van welke SEO-verbeteringen zijn doorgevoerd

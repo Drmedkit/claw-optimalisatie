@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "cImncIh32vLzDQNCuE0dT"
+uri = "file://attached_assets/new-amsterdam-canal_1760876000697.png"
+type = "image"
+title = "Hero afbeelding — Amsterdam kanaal"

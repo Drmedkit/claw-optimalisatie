@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op? | Label & Lens</title>
+    <meta name="description" content="Een energielabel A verhoogt je woningwaarde met gemiddeld €15.000. Ontdek welke maatregelen nodig zijn en wat het kost.">
+    <link rel="canonical" href="https://www.labelenlens.nl/blog/energielabel-a-hoe-bereik-je-dat">
+
+    <!-- Google Fonts: Inter (preload, non-blocking) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
+
+    <!-- Tailwind CSS (linked) -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Critical CSS (inline) -->
+    <style>
+        :root {
+            --color-primary: hsl(84, 75%, 55%); /* Green */
+            --color-bg-light: #faf9f7; /* Warm off-white */
+            --color-card-bg: #ffffff; /* White */
+            --color-text-dark: #333333; /* Dark grey for text */
+            --color-text-light: #666666; /* Lighter grey for secondary text */
+            --color-border: #e0e0e0; /* Light grey border */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-bg-light);
+            color: var(--color-text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--color-text-dark);
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+        h1 { font-size: 2.25rem; } /* 36px */
+        h2 { font-size: 1.875rem; } /* 30px */
+        h3 { font-size: 1.5rem; } /* 24px */
+        h4 { font-size: 1.25rem; } /* 20px */
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        /* Card styling */
+        .card {
+            background-color: var(--color-card-bg);
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            color: var(--color-text-dark);
+            border: 1px solid var(--color-primary);
+        }
+
+        .btn-primary:hover {
+            background-color: hsl(84, 75%, 45%); /* Slightly darker green */
+            border-color: hsl(84, 75%, 45%);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--color-primary);
+            border: 1px solid var(--color-primary);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--color-primary);
+            color: var(--color-card-bg);
+        }
+
+        /* Header specific styles for sticky and mobile menu */
+        .header {
+            background-color: var(--color-card-bg);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--color-text-dark);
+        }
+
+        .logo span {
+            color: var(--color-primary);
+        }
+
+        .nav-menu {
+            display: none; /* Hidden by default on mobile */
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--color-card-bg);
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .nav-menu.active {
+            display: flex; /* Show when active */
+        }
+
+        .nav-menu a {
+            padding: 0.75rem 1rem;
+            display: block;
+            color: var(--color-text-dark);
+            font-weight: 600;
+        }
+
+        .nav-menu a:hover {
+            background-color: var(--color-bg-light);
+            text-decoration: none;
+        }
+
+        .hamburger-menu {
+            display: block; /* Show on mobile */
+            cursor: pointer;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            line-height: 1;
+            color: var(--color-text-dark);
+        }
+
+        .desktop-nav {
+            display: none; /* Hidden on mobile */
+        }
+
+        .desktop-nav .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            margin-right: 1.5rem;
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .desktop-nav .nav-links a {
+            color: var(--color-text-dark);
+            font-weight: 600;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+
+        .desktop-nav .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--color-primary);
+            transition: width 0.3s ease-in-out;
+        }
+
+        .desktop-nav .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        @media (min-width: 768px) { /* Tailwind's md breakpoint */
+            .nav-menu {
+                display: none !important; /* Hide mobile menu on desktop */
+            }
+            .hamburger-menu {
+                display: none !important; /* Hide hamburger on desktop */
+            }
+            .desktop-nav {
+                display: flex; /* Show desktop nav */
+                align-items: center;
+            }
+            .desktop-nav .nav-links {
+                flex-direction: row;
+            }
+        }
+
+        /* Article specific styles */
+        .article-header {
+            margin-bottom: 2rem;
+        }
+
+        .article-meta {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            margin-top: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: var(--color-bg-light);
+            border-left: 4px solid var(--color-primary);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* CTA section */
+        .cta-section {
+            background-color: var(--color-primary);
+            padding: 3rem 1rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .cta-section h2 {
+            color: var(--color-text-dark);
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            color: var(--color-text-dark);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        @media (min-width: 640px) { /* Tailwind's sm breakpoint */
+            .cta-buttons {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--color-text-dark);
+            color: var(--color-card-bg);
+            padding: 3rem 0;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--color-card-bg);
+        }
+
+        .footer a:hover {
+            color: var(--color-primary);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        @media (min-width: 640px) {
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) { /* Tailwind's lg breakpoint */
+            .footer-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .footer-col h3 {
+            color: var(--color-primary);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--color-card-bg);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .footer-logo span {
+            color: var(--color-primary);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: var(--color-text-light);
+        }
+    </style>
+
+    <!-- SEO Meta Tags -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op? | Label & Lens">
+    <meta property="og:description" content="Een energielabel A verhoogt je woningwaarde met gemiddeld €15.000. Ontdek welke maatregelen nodig zijn en wat het kost.">
+    <meta property="og:url" content="https://www.labelenlens.nl/blog/energielabel-a-hoe-bereik-je-dat">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://www.labelenlens.nl/images/energielabel-a-hero.jpg">
+    <meta property="og:site_name" content="Label & Lens">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@labelenlens"> <!-- Assuming a Twitter handle -->
+    <meta name="twitter:creator" content="@labelenlens">
+    <meta name="twitter:title" content="Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op? | Label & Lens">
+    <meta name="twitter:description" content="Een energielabel A verhoogt je woningwaarde met gemiddeld €15.000. Ontdek welke maatregelen nodig zijn en wat het kost.">
+    <meta name="twitter:image" content="https://www.labelenlens.nl/images/energielabel-a-hero.jpg">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op?",
+      "image": [
+        "https://www.labelenlens.nl/images/energielabel-a-hero.jpg"
+       ],
+      "datePublished": "2026-03-29T09:00:00+01:00",
+      "dateModified": "2026-03-29T09:00:00+01:00",
+      "author": {
+        "@type": "Person",
+        "name": "Paulo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Label & Lens",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.labelenlens.nl/images/logo.png"
+        }
+      },
+      "description": "Een energielabel A verhoogt je woningwaarde met gemiddeld €15.000. Ontdek welke maatregelen nodig zijn en wat het kost.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.labelenlens.nl/blog/energielabel-a-hoe-bereik-je-dat"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Label &amp; <span>Lens</span></a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="/energielabel">Energielabel</a></li>
+                    <li><a href="/fotografie">Fotografie</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+                <a href="/energielabel" class="btn btn-primary">Aanvragen</a>
+            </nav>
+            <button class="hamburger-menu" aria-label="Open menu" aria-expanded="false" id="hamburger-button">☰</button>
+        </div>
+        <nav class="nav-menu" id="mobile-menu">
+            <a href="/energielabel">Energielabel</a>
+            <a href="/fotografie">Fotografie</a>
+            <a href="/blog">Blog</a>
+            <a href="/#contact">Contact</a>
+            <a href="/energielabel" class="btn btn-primary" style="margin-top: 1rem;">Aanvragen</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container card" style="padding: 2rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <nav aria-label="breadcrumb" style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1.5rem;">
+                <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
+                    <li style="display: inline;"><a href="/" style="color: var(--color-text-light);">Home</a></li>
+                    <li style="display: inline; margin: 0 0.5rem;">&gt;</li>
+                    <li style="display: inline;"><a href="/blog" style="color: var(--color-text-light);">Blog</a></li>
+                    <li style="display: inline; margin: 0 0.5rem;">&gt;</li>
+                    <li style="display: inline; color: var(--color-text-dark);">Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op?</li>
+                </ol>
+            </nav>
+
+            <article>
+                <header class="article-header">
+                    <h1>Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op?</h1>
+                    <p class="article-meta">Door Paulo | Label &amp; Lens | Gepubliceerd: maart 2026</p>
+                </header>
+
+                <p>Een energielabel A is meer dan alleen een letter op papier; het is een bewijs van een energiezuinige woning die comfort, lagere energiekosten en een hogere marktwaarde biedt. Gemiddeld kan een woning met energielabel A tot wel €15.000 meer waard zijn dan een vergelijkbare woning met een lager label. Het bereiken van dit label vereist gerichte investeringen in isolatie, verwarming en ventilatie, maar de voordelen op lange termijn zijn aanzienlijk, zowel financieel als voor het wooncomfort en het milieu. In dit artikel duiken we dieper in wat energielabel A precies inhoudt, welke stappen je kunt nemen om het te bereiken en wat de concrete opbrengsten zijn.</p>
+
+                <h2>Wat is energielabel A (kWh/m²)?</h2>
+                <p>Het energielabel van een woning geeft aan hoe energiezuinig deze is, uitgedrukt in een letter van G (zeer onzuinig) tot A++++ (zeer zuinig). Een woning met energielabel A heeft een primair fossiel energiegebruik van minder dan 105 kWh per vierkante meter per jaar (kWh/m² per jaar). Dit betekent dat de woning zeer goed geïsoleerd is, efficiënt verwarmd wordt en weinig energie verliest. Het label houdt rekening met de isolatie van daken, muren, vloeren en ramen, de installaties voor verwarming, warm water en ventilatie, en de aanwezigheid van duurzame energiebronnen zoals zonnepanelen. Een hoog energielabel is niet alleen goed voor je portemonnee, maar draagt ook bij aan een duurzamere leefomgeving.</p>
+
+                <h2>Verschil tussen A, A+ en A++ labels</h2>
+                <p>Binnen de A-klasse zijn er nog verdere gradaties: A, A+, A++ en zelfs A++++. Deze plusjes geven aan hoe energiezuinig een woning precies is. Een woning met label A verbruikt minder dan 105 kWh/m² per jaar. Een A+ label zit tussen de 50 en 0 kWh/m² per jaar, terwijl een A++ label zelfs een positieve energiebalans kan hebben, wat betekent dat de woning meer energie opwekt dan verbruikt (bijvoorbeeld door veel zonnepanelen in combinatie met uitstekende isolatie). De hoogste labels, A+++ en A++++, zijn vaak voorbehouden aan nieuwbouwwoningen die voldoen aan de BENG-eisen (Bijna Energie Neutrale Gebouwen) en zelfs energieneutraal of energieleverend zijn. Het verschil zit dus in de mate van energiezuinigheid en de hoeveelheid opgewekte duurzame energie.</p>
+
+                <h2>Benodigde maatregelen per woningtype</h2>
+                <p>De weg naar energielabel A verschilt per woningtype. Voor een <strong>rijtjeshuis</strong> zijn vaak dak-, vloer- en spouwmuurisolatie de eerste stappen, gevolgd door HR++ glas en een efficiënte cv-ketel of warmtepomp. Bij een <strong>vrijstaande woning</strong> zijn de isolatiemaatregelen nog crucialer vanwege de grotere buitenoppervlakken, en is een hybride of volledig elektrische warmtepomp vaak een logische volgende stap. Voor <strong>appartementen</strong> ligt de focus vaak op raamisolatie (HR++ of triple glas), efficiënte ventilatie en eventueel isolatie van de buitenmuren als dit technisch mogelijk is. In alle gevallen is het plaatsen van zonnepanelen een effectieve manier om het energieverbruik verder te verlagen en het label te verbeteren. Een <a href="/energielabel">professionele energielabel adviseur</a> kan een maatwerkadvies opstellen dat precies past bij jouw woning en budget.</p>
+
+                <div class="highlight-box">
+                    <h3>Tip van Label &amp; Lens:</h3>
+                    <p>Begin altijd met een grondige analyse van je huidige woning. Een energielabel op maat geeft je inzicht in de meest effectieve en rendabele verbeterpunten. Zo voorkom je onnodige kosten en maximaliseer je de impact van je investeringen.</p>
+                </div>
+
+                <h2>Kosten versus waardestijging</h2>
+                <p>De investering om een energielabel A te bereiken varieert sterk, afhankelijk van het startlabel en de gekozen maatregelen. Gemiddeld liggen de kosten tussen de €10.000 en €30.000 voor een woning die van label C of D naar A gaat. Echter, deze investering betaalt zich vaak dubbel en dwars terug. Onderzoek toont aan dat een woning met energielabel A gemiddeld €15.000 tot €20.000 meer waard is dan een vergelijkbare woning met een lager label. Dit komt door lagere maandelijkse energielasten, meer wooncomfort en de toenemende vraag naar duurzame woningen. Bovendien zijn banken vaak bereid om gunstigere hypotheekvoorwaarden te bieden voor energiezuinige woningen, wat de financiering vergemakkelijkt.</p>
+
+                <h2>Subsidies en financieringsmogelijkheden</h2>
+                <p>De overheid stimuleert energiebesparende maatregelen met diverse subsidies en financieringsmogelijkheden. De belangrijkste is de ISDE-subsidie (Investeringssubsidie duurzame energie en energiebesparing), waarmee je een aanzienlijk deel van de kosten voor isolatie, warmtepompen en zonneboilers kunt terugkrijgen. Vaak is het gunstiger om minimaal twee isolatiemaatregelen te combineren voor een hogere subsidie. Daarnaast zijn er de Energiebespaarlening en de duurzaamheidshypotheek, die tegen gunstige rentetarieven leningen verstrekken voor energiebesparende maatregelen. Lokale gemeenten bieden soms ook aanvullende subsidies. Het is raadzaam om je goed te laten informeren over de actuele regelingen, bijvoorbeeld via de website van de Rijksdienst voor Ondernemend Nederland (RVO).</p>
+
+                <h2>Gemiddelde terugverdientijd</h2>
+                <p>De terugverdientijd van energiebesparende maatregelen hangt af van de initiële investering, de besparing op energiekosten en de hoogte van eventuele subsidies. Voor isolatiemaatregelen zoals dak-, vloer- en spouwmuurisolatie ligt de terugverdientijd vaak tussen de 5 en 10 jaar. Voor een warmtepomp kan dit iets langer zijn, tussen de 7 en 15 jaar, afhankelijk van het type en de situatie. Zonnepanelen hebben doorgaans een terugverdientijd van 4 tot 7 jaar, mede dankzij de salderingsregeling (die overigens wel aan verandering onderhevig is). Naast de directe financiële besparing en de waardestijging van je woning, draagt een energielabel A ook bij aan een comfortabeler binnenklimaat en een lagere CO2-uitstoot, wat op zichzelf al waardevol is. Meer weten over de kosten? Lees ook onze blog over <a href="/blog/energielabel-kosten-2026">de kosten van een energielabel in 2026</a>.</p>
+
+                <p>Het traject naar een energielabel A is een investering in de toekomst van je woning en je portemonnee. Met de juiste aanpak en benutting van subsidies is het voor veel woningen een haalbare en rendabele stap. Benieuwd wanneer een energielabel verplicht is? Lees dan onze blog <a href="/blog/energielabel-verplicht-wanneer">Energielabel verplicht: wanneer en waarom?</a></p>
+            </article>
+        </div>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Hulp nodig bij het verduurzamen van je woning?</h2>
+                <p>Het pad naar een energiezuinige woning kan complex lijken, maar met de juiste begeleiding is het een helder en lonend traject. Laat Label &amp; Lens je helpen om inzicht te krijgen in de mogelijkheden voor jouw woning.</p>
+                <div class="cta-buttons">
+                    <a href="/energielabel" class="btn btn-primary">Laat je huidige label beoordelen &rarr;</a>
+                    <a href="tel:+31643735719" class="btn btn-secondary">Bel ons: +31 6 43 73 57 19</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/" class="footer-logo">Label &amp; <span>Lens</span></a>
+                    <p>Jouw partner voor energielabels en vastgoedfotografie. Helder, snel en betrouwbaar.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigatie</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/privacybeleid">Privacybeleid</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Diensten</h3>
+                    <ul>
+                        <li><a href="/energielabel">Energielabel aanvragen</a></li>
+                        <li><a href="/fotografie">Vastgoedfotografie</a></li>
+                        <li><a href="/energielabel#maatwerkadvies">Maatwerkadvies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:info@labelenlens.nl">info@labelenlens.nl</a></li>
+                        <li><a href="tel:+31643735719">+31 6 43 73 57 19</a></li>
+                        <li>KVK: 87532638</li>
+                        <li><a href="/algemene-voorwaarden">Algemene Voorwaarden</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Label &amp; Lens. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerButton = document.getElementById('hamburger-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            hamburgerButton.addEventListener('click', function() {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                mobileMenu.classList.toggle('active');
+                this.setAttribute('aria-expanded', !isExpanded);
+            });
+
+            // Close menu when a link is clicked (for single-page navigation or general UX)
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                    hamburgerButton.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu if clicked outside
+            document.addEventListener('click', function(event) {
+                if (!mobileMenu.contains(event.target) && !hamburgerButton.contains(event.target) && mobileMenu.classList.contains('active')) {
+                    mobileMenu.classList.remove('active');
+                    hamburgerButton.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar | Label & Lens</title>
+    <meta name="description" content="Met deze vastgoedfotografie tips verkoop je je woning sneller. Van belichting tot styling — professionele adviezen voor betere foto's.">
+    <link rel="canonical" href="https://www.labelenlens.nl/blog/vastgoedfotografie-tips-betere-fotos">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.labelenlens.nl/blog/vastgoedfotografie-tips-betere-fotos">
+    <meta property="og:title" content="Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar | Label & Lens">
+    <meta property="og:description" content="Met deze vastgoedfotografie tips verkoop je je woning sneller. Van belichting tot styling — professionele adviezen voor betere foto's.">
+    <meta property="og:image" content="https://www.labelenlens.nl/images/vastgoedfotografie-hero.jpg"> <!-- Placeholder image -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.labelenlens.nl/blog/vastgoedfotografie-tips-betere-fotos">
+    <meta property="twitter:title" content="Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar | Label & Lens">
+    <meta property="twitter:description" content="Met deze vastgoedfotografie tips verkoop je je woning sneller. Van belichting tot styling — professionele adviezen voor betere foto's.">
+    <meta property="twitter:image" content="https://www.labelenlens.nl/images/vastgoedfotografie-hero.jpg"> <!-- Placeholder image -->
+
+    <!-- Google Fonts: Inter (preload, non-blocking) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Inline Critical CSS for fast render -->
+    <style>
+        :root {
+            --color-primary: hsl(84, 75%, 55%); /* Green */
+            --color-bg-offwhite: #faf9f7; /* Warm off-white */
+            --color-text-dark: #333;
+            --color-text-light: #555;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-bg-offwhite);
+            color: var(--color-text-dark);
+            line-height: 1.6;
+        }
+
+        .header-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            color: var(--color-text-dark);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem; /* 8px */
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn-primary:hover {
+            filter: brightness(0.9);
+        }
+
+        .text-primary {
+            color: var(--color-primary);
+        }
+
+        .bg-primary-light {
+            background-color: hsl(84, 75%, 90%); /* Lighter shade of primary for callout */
+        }
+
+        .bg-primary-dark {
+            background-color: var(--color-primary);
+        }
+
+        /* Basic mobile menu styling */
+        .mobile-menu-button {
+            display: block; /* Show on mobile */
+            cursor: pointer;
+            padding: 0.5rem;
+            background: none;
+            border: none;
+            z-index: 1001; /* Ensure button is above mobile nav */
+        }
+        .mobile-menu-button span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--color-text-dark);
+            margin: 5px 0;
+            transition: 0.4s;
+        }
+        .mobile-menu-button.active .bar1 {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+        .mobile-menu-button.active .bar2 {
+            opacity: 0;
+        }
+        .mobile-menu-button.active .bar3 {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+        .mobile-nav {
+            display: none; /* Hidden by default */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 1rem 0;
+            z-index: 999;
+        }
+        .mobile-nav.active {
+            display: block;
+        }
+        .mobile-nav a {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: var(--color-text-dark);
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+        }
+        .mobile-nav a:last-child {
+            border-bottom: none;
+        }
+        .mobile-nav a:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* Desktop specific styles */
+        @media (min-width: 768px) { /* Tailwind's 'md' breakpoint */
+            .mobile-menu-button {
+                display: none; /* Hide on desktop */
+            }
+            .mobile-nav {
+                display: none !important; /* Ensure hidden on desktop */
+            }
+            .desktop-nav {
+                display: flex; /* Show desktop nav */
+            }
+        }
+        @media (max-width: 767px) {
+            .desktop-nav {
+                display: none; /* Hide desktop nav on mobile */
+            }
+        }
+    </style>
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar",
+      "description": "Met deze vastgoedfotografie tips verkoop je je woning sneller. Van belichting tot styling — professionele adviezen voor betere foto's.",
+      "image": [
+        "https://www.labelenlens.nl/images/vastgoedfotografie-hero.jpg"
+       ],
+      "datePublished": "2026-03-29T10:00:00+01:00",
+      "dateModified": "2026-03-29T10:00:00+01:00",
+      "author": {
+        "@type": "Person",
+        "name": "Paulo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Label & Lens",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.labelenlens.nl/images/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.labelenlens.nl/blog/vastgoedfotografie-tips-betere-fotos"
+      }
+    }
+    </script>
+</head>
+<body class="bg-[#faf9f7] text-gray-800 font-inter antialiased">
+
+    <!-- Header -->
+    <header class="header-sticky w-full">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between relative">
+            <a href="/" class="text-2xl font-bold text-gray-900">Label & Lens</a>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="mobile-menu-button md:hidden" aria-label="Open menu">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav hidden md:flex items-center space-x-6" aria-label="Hoofdnavigatie">
+                <a href="/energielabel" class="text-gray-700 hover:text-gray-900 font-medium">Energielabel</a>
+                <a href="/fotografie" class="text-gray-700 hover:text-gray-900 font-medium">Fotografie</a>
+                <a href="/blog" class="text-gray-700 hover:text-gray-900 font-medium">Blog</a>
+                <a href="/#contact" class="text-gray-700 hover:text-gray-900 font-medium">Contact</a>
+                <a href="/energielabel" class="btn-primary">Aanvragen</a>
+            </nav>
+
+            <!-- Mobile Navigation (hidden by default) -->
+            <nav id="mobile-nav" class="mobile-nav md:hidden" aria-label="Mobiele navigatie">
+                <a href="/energielabel">Energielabel</a>
+                <a href="/fotografie">Fotografie</a>
+                <a href="/blog">Blog</a>
+                <a href="/#contact">Contact</a>
+                <a href="/energielabel" class="btn-primary mx-4 mt-2">Aanvragen</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12">
+        <!-- Breadcrumb -->
+        <nav class="text-sm text-gray-600 mb-6" aria-label="breadcrumb">
+            <ol class="list-none p-0 inline-flex">
+                <li class="flex items-center">
+                    <a href="/" class="text-gray-600 hover:text-gray-800">Home</a>
+                    <svg class="fill-current w-3 h-3 mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="/blog" class="text-gray-600 hover:text-gray-800">Blog</a>
+                    <svg class="fill-current w-3 h-3 mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                </li>
+                <li>
+                    <span class="text-gray-800 font-semibold">Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar</span>
+                </li>
+            </ol>
+        </nav>
+
+        <article class="bg-white p-6 md:p-10 rounded-lg shadow-sm">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 leading-tight">Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar</h1>
+            <p class="text-gray-600 text-sm mb-8">Door <span class="font-semibold">Paulo</span> | Label & Lens | Gepubliceerd: maart 2026</p>
+
+            <div class="prose max-w-none">
+                <p class="text-lg mb-6">
+                    De eerste indruk is cruciaal, zeker bij de verkoop van een woning. Voordat potentiële kopers überhaupt overwegen om een bezichtiging in te plannen, zien ze jouw huis online. En wat zien ze dan? Juist, de foto's. Goede vastgoedfotografie kan het verschil betekenen tussen een snelle verkoop tegen een goede prijs en een woning die lang te koop staat. In dit artikel delen we essentiële tips om je woning zo aantrekkelijk mogelijk vast te leggen, zodat het direct de aandacht trekt en potentiële kopers nieuwsgierig maakt. Van de juiste belichting tot slimme styling, we helpen je op weg naar onweerstaanbare woningfoto's.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">1. De Kracht van Belichting en Timing</h2>
+                <p class="mb-4">
+                    Licht is de belangrijkste factor in fotografie. Natuurlijk daglicht is vrijwel altijd de beste keuze voor interieurfoto's. Plan je fotoshoot daarom op een zonnige dag, of in ieder geval op een dag met voldoende daglicht. Vermijd felle middagzon die harde schaduwen creëert; de vroege ochtend of late namiddag (het 'gouden uur') biedt vaak een zachter, warmer licht dat ruimtes uitnodigender maakt. Open alle gordijnen en lamellen om zoveel mogelijk licht binnen te laten. Schakel alle lampen in, zelfs overdag, om een warme sfeer te creëren en donkere hoeken te vermijden. Zorg ervoor dat de kleurtemperatuur van alle lampen consistent is om onnatuurlijke kleurtinten te voorkomen. Experimenteer met verschillende hoeken om te zien hoe het licht valt en welke delen van de kamer het beste worden belicht.
+                </p>
+                <p class="mb-6">
+                    Let ook op de richting van het licht. Fotografeer met het licht mee, dus met de ramen in je rug, om overbelichting van buiten en onderbelichting van binnen te voorkomen. Als dit niet mogelijk is, kan een professionele fotograaf technieken zoals HDR (High Dynamic Range) gebruiken om zowel de lichte als donkere delen van de foto goed weer te geven. Een goed belichte foto oogt ruimer, frisser en professioneler.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">2. Opruimen, Ontpersoonlijken en Styling</h2>
+                <p class="mb-4">
+                    Dit is misschien wel de meest onderschatte stap. Een opgeruimde en neutrale woning spreekt een breder publiek aan. Begin met grondig opruimen: geen afwas op het aanrecht, geen stapels post, geen rondslingerend speelgoed. Minder is meer. Ontpersoonlijk de ruimte door persoonlijke foto's, souvenirs en te veel decoratie weg te halen. Potentiële kopers willen zich hun eigen leven in de woning voorstellen, en dat gaat moeilijker als overal jouw persoonlijke stempel zichtbaar is.
+                </p>
+                <p class="mb-6">
+                    Na het opruimen komt de styling. Denk aan frisse bloemen of een mooie plant, opgerolde handdoeken in de badkamer, en een netjes opgemaakt bed. Zorg voor eenheid in kleur en stijl. Kleine details maken een groot verschil. Een schone spiegel, glimmende kranen, en een opgeruimde tuin dragen allemaal bij aan een positieve indruk. Vergeet ook niet de huisdierbenodigdheden tijdelijk op te bergen. Een frisse, schone en neutrale woning nodigt uit tot dromen.
+                </p>
+
+                <div class="bg-primary-light p-6 rounded-lg my-8 shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-3">💡 Pro Tip: De Geur van je Huis</h3>
+                    <p class="text-gray-700">
+                        Hoewel foto's geen geur kunnen overbrengen, speelt de geur van je huis een onbewuste rol bij bezichtigingen. Zorg ervoor dat je huis fris ruikt. Ventileer goed, zet een kopje koffie of bak wat koekjes voor een huiselijke sfeer. Dit draagt bij aan de algehele positieve beleving die de foto's moeten uitstralen.
+                    </p>
+                </div>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">3. De Juiste Kamervolgorde en Perspectief</h2>
+                <p class="mb-4">
+                    De volgorde van de foto's in de presentatie is net zo belangrijk als de foto's zelf. Begin met de meest indrukwekkende ruimte, vaak de woonkamer of de gevel, om direct de aandacht te trekken. Volg daarna een logische route door het huis, alsof de kijker een virtuele rondleiding krijgt. Denk aan: entree, woonkamer, keuken, slaapkamers, badkamer, en tot slot de tuin of buitenruimte. Dit voorkomt verwarring en geeft een duidelijk beeld van de indeling.
+                </p>
+                <p class="mb-6">
+                    Wat betreft perspectief: fotografeer vanuit een laag standpunt (ongeveer borsthoogte) om ruimtes groter en opener te laten lijken. Gebruik bij voorkeur een groothoeklens om zoveel mogelijk van de ruimte te vangen zonder te veel vervorming. Zorg ervoor dat verticale lijnen, zoals deurposten en kozijnen, recht zijn. Dit geeft een professionele en stabiele uitstraling. Vermijd foto's die schuin zijn of te veel van het plafond of de vloer laten zien, tenzij dit bewust is voor een specifiek effect.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">4. Vergeet de Buitenfoto's Niet</h2>
+                <p class="mb-4">
+                    De buitenkant van je woning is het visitekaartje. Een aantrekkelijke gevel en tuin trekken direct de aandacht. Zorg ervoor dat de tuin netjes is onderhouden: gemaaid gras, onkruidvrij, en eventueel wat bloeiende planten. Verwijder fietsen, kliko's en andere rommel uit het zicht. Fotografeer de gevel op een moment dat er geen auto's of andere obstakels voor de deur staan.
+                </p>
+                <p class="mb-6">
+                    Overweeg ook foto's van de directe omgeving als deze een meerwaarde biedt, zoals een park, water of een gezellige straat. Dit geeft potentiële kopers een completer beeld van de leefomgeving. Een goede buitenfoto, genomen op een zonnige dag met een blauwe lucht, kan de woning direct een uitnodigende uitstraling geven.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">5. De Meerwaarde van 360° Tours en Video</h2>
+                <p class="mb-4">
+                    In de huidige woningmarkt zijn statische foto's vaak niet meer voldoende. 360° virtuele tours bieden potentiële kopers de mogelijkheid om vanuit hun luie stoel door de woning te 'lopen'. Dit geeft een realistisch beeld van de ruimte en indeling, en filtert tegelijkertijd de 'kijktoeristen' eruit, waardoor je alleen serieuze geïnteresseerden overhoudt voor fysieke bezichtigingen.
+                </p>
+                <p class="mb-6">
+                    Video's kunnen de sfeer en flow van een woning nog beter overbrengen. Een korte, professionele video met rustige camerabewegingen en passende muziek kan een emotionele connectie creëren. Het toont niet alleen de ruimtes, maar ook de overgangen daartussen, wat een completer verhaal vertelt dan losse foto's. Dit zijn krachtige tools om je woning echt te laten opvallen.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">6. Drone Fotografie: Een Uniek Perspectief</h2>
+                <p class="mb-4">
+                    Voor woningen met een grote tuin, een bijzondere ligging of in een mooie omgeving, kan drone fotografie een enorme meerwaarde bieden. Luchtfoto's en -video's geven een uniek perspectief op de woning en het perceel. Ze tonen de omvang van de tuin, de afstand tot buren, en de nabijheid van voorzieningen zoals water of groen.
+                </p>
+                <p class="mb-6">
+                    Een drone kan de woning vanuit een hoek vastleggen die met traditionele fotografie onmogelijk is, waardoor de architectuur en de setting optimaal tot hun recht komen. Dit is vooral effectief voor vrijstaande woningen, boerderijen of huizen aan het water. Zorg er wel voor dat de dronepiloot gecertificeerd is en de lokale regelgeving volgt.
+                </p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold mt-10 mb-4">7. Waarom Professionele Vastgoedfotografie de Investering Waard Is</h2>
+                <p class="mb-4">
+                    Hoewel je met bovenstaande tips al een heel eind komt, is er een reden waarom professionele vastgoedfotografen bestaan. Zij beschikken over de juiste apparatuur (groothoeklenzen, statieven, flitsers), software voor nabewerking, en vooral de expertise om je woning optimaal te presenteren. Een professional weet hoe licht te manipuleren, composities te maken die ruimtes groter laten lijken, en hoe de beste sfeer te vangen.
+                </p>
+                <p class="mb-6">
+                    De investering in professionele fotografie betaalt zich vaak dubbel en dwars terug in een snellere verkoop en een hogere verkoopprijs. Potentiële kopers zijn bereid meer te betalen voor een woning die er op foto's fantastisch uitziet. Bij <a href="/fotografie" class="text-primary hover:underline font-medium">Label & Lens bieden we professionele vastgoedfotografie</a> aan die jouw woning laat stralen. We begrijpen de Nederlandse woningmarkt en weten precies wat nodig is om jouw huis onweerstaanbaar te maken.
+                </p>
+
+                <p class="mb-6">
+                    Naast fotografie is ook het energielabel een verplicht onderdeel bij de verkoop van je woning. Benieuwd wanneer een energielabel verplicht is? Lees dan ons artikel: <a href="/blog/energielabel-verplicht-wanneer" class="text-primary hover:underline font-medium">"Wanneer is een energielabel verplicht?"</a>. En wil je meer weten over de kosten? Bekijk dan <a href="/blog/energielabel-kosten-2026" class="text-primary hover:underline font-medium">"Energielabel kosten 2026: Wat kun je verwachten?"</a>.
+                </p>
+
+                <p class="text-lg mt-8">
+                    Met deze uitgebreide tips ben je goed voorbereid om je woning op de best mogelijke manier te presenteren. Of je nu zelf aan de slag gaat of kiest voor de expertise van een professional, onthoud dat kwalitatieve foto's de sleutel zijn tot een succesvolle verkoop. Veel succes!
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="bg-primary-dark text-gray-900 py-12 md:py-16 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Hulp nodig bij het presenteren van je woning?</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Laat de stress van perfecte woningfoto's aan ons over. Met onze professionele vastgoedfotografie zorgen wij ervoor dat jouw woning er op zijn best uitziet en potentiële kopers direct overtuigt.
+            </p>
+            <a href="/fotografie" class="btn-primary text-gray-900 hover:bg-white hover:text-primary transition duration-300 ease-in-out">
+                Laat het aan een professional over &rarr;
+            </a>
+            <p class="mt-6 text-lg font-medium">
+                Of bel ons direct: <a href="tel:+31643735719" class="hover:underline">+31 6 43 73 57 19</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10 md:py-16">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Column 1: Logo -->
+            <div>
+                <a href="/" class="text-2xl font-bold text-white mb-4 block">Label & Lens</a>
+                <p class="text-sm">
+                    Jouw partner voor professionele energielabels en vastgoedfotografie.
+                </p>
+            </div>
+
+            <!-- Column 2: Navigatie -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Navigatie</h3>
+                <ul class="space-y-2">
+                    <li><a href="/energielabel" class="hover:text-white transition-colors duration-200">Energielabel</a></li>
+                    <li><a href="/fotografie" class="hover:text-white transition-colors duration-200">Fotografie</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors duration-200">Blog</a></li>
+                    <li><a href="/#contact" class="hover:text-white transition-colors duration-200">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Diensten -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Diensten</h3>
+                <ul class="space-y-2">
+                    <li><a href="/energielabel" class="hover:text-white transition-colors duration-200">Energielabel aanvragen</a></li>
+                    <li><a href="/fotografie" class="hover:text-white transition-colors duration-200">Vastgoedfotografie</a></li>
+                    <li><a href="/energielabel#zakelijk" class="hover:text-white transition-colors duration-200">Energielabel zakelijk</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Contact -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Contact</h3>
+                <ul class="space-y-2">
+                    <li><a href="mailto:info@labelenlens.nl" class="hover:text-white transition-colors duration-200">info@labelenlens.nl</a></li>
+                    <li><a href="tel:+31643735719" class="hover:text-white transition-colors duration-200">+31 6 43 73 57 19</a></li>
+                    <li>KVK: 87532638</li>
+                    <li><a href="/privacy-policy" class="hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-8 text-center text-sm text-gray-500">
+            &copy; 2026 Label & Lens. Alle rechten voorbehouden.
+        </div>
+    </footer>
+
+    <!-- Vanilla JS for Mobile Menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.getElementById('mobile-menu-button');
+            const mobileNav = document.getElementById('mobile-nav');
+
+            menuButton.addEventListener('click', function() {
+                mobileNav.classList.toggle('active');
+                menuButton.classList.toggle('active');
+                // Toggle aria-expanded for accessibility
+                const isExpanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
+                menuButton.setAttribute('aria-expanded', !isExpanded);
+            });
+
+            // Close menu when a link is clicked (optional, but good UX)
+            mobileNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNav.classList.remove('active');
+                    menuButton.classList.remove('active');
+                    menuButton.setAttribute('aria-expanded', 'false');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

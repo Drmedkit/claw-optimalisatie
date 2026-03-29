@@ -85,7 +85,7 @@ export function OverOnsContent() {
                     src={pauloPortrait}
                     alt="Paulo – Oprichter Label & Lens"
                     className="w-full aspect-[3/4] object-cover object-top"
-                  />
+                   loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>

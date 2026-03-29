@@ -421,7 +421,7 @@ export default function Fotografie() {
                     className="w-auto h-80 object-contain"
                     style={{ transform: 'rotate(90deg)' }}
                     data-testid="floorplan-image"
-                  />
+                   loading="lazy" decoding="async" />
                 </div>
               </div>
             </ScrollReveal>
@@ -445,7 +445,7 @@ export default function Fotografie() {
                   src={tabletImage}
                   alt="360° woningfotografie op tablet"
                   className="w-full h-auto"
-                />
+                 loading="lazy" decoding="async" />
               </div>
             </ScrollReveal>
 
@@ -532,7 +532,7 @@ export default function Fotografie() {
                   src={videoImage}
                   alt="Professionele woningvideo productie"
                   className="w-full h-auto"
-                />
+                 loading="lazy" decoding="async" />
               </div>
             </ScrollReveal>
           </div>
@@ -595,7 +595,7 @@ export default function Fotografie() {
                     src={brochureScreenshot}
                     alt="Online woningbrochure voorbeeld - Welnastraat 159"
                     className="w-full h-auto"
-                  />
+                   loading="lazy" decoding="async" />
                 </a>
                 <div className="text-center">
                   <a

@@ -28,7 +28,7 @@ export function Footer() {
               src={logoImage}
               alt="Label & Lens Vastgoed"
               className="h-12 w-auto mb-4"
-            />
+             loading="lazy" decoding="async" />
           </div>
 
           {/* Quick Links */}

@@ -27,7 +27,7 @@ export function TeamContent() {
                     src={pauloPortrait}
                     alt="Paulo - Oprichter Label & Lens"
                     className="absolute inset-0 w-full h-full object-cover object-top"
-                  />
+                   loading="lazy" decoding="async" />
                 </div>
                 {/* Rechterkolom: naam + functietitel + tekst */}
                 <div className="flex flex-col">

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — Energielabel & Vastgoed Tips | Label & Lens</title>
+    <meta name="description" content="Praktische tips over energielabels, vastgoedfotografie en wonen in Amsterdam. Geschreven door EP-adviseur Paulo van Label & Lens.">
+    <link rel="canonical" href="https://www.labelenlens.nl/blog">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Critical CSS (Inline) -->
+    <style>
+        :root {
+            --primary-color: #007bff; /* A shade of blue */
+            --primary-hover-color: #0056b3;
+            --text-color-default: #333;
+            --text-color-light: #666;
+            --bg-color-light: #f8f9fa;
+            --border-color: #e2e8f0; /* gray-200 */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        /* Basic Reset & Typography */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color-default);
+            background-color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--primary-hover-color);
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+        .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-3 { margin-top: 0.75rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .p-6 { padding: 1.5rem; }
+        .text-center { text-align: center; }
+        .text-sm { font-size: 0.875rem; }
+        .text-base { font-size: 1rem; }
+        .text-xl { font-size: 1.25rem; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-3xl { font-size: 1.875rem; }
+        .text-4xl { font-size: 2.25rem; }
+        .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+        .font-medium { font-weight: 500; }
+        .text-primary { color: var(--primary-color); }
+        .hover\:text-primary:hover { color: var(--primary-hover-color); }
+        .text-gray-600 { color: var(--text-color-light); }
+        .text-xs { font-size: 0.75rem; }
+        .uppercase { text-transform: uppercase; }
+        .tracking-wide { letter-spacing: 0.025em; }
+        .bg-white { background-color: #fff; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .shadow-sm { box-shadow: var(--shadow-sm); }
+        .shadow-md { box-shadow: var(--shadow-md); }
+        .border { border: 1px solid var(--border-color); }
+        .border-gray-200 { border-color: var(--border-color); }
+        .overflow-hidden { overflow: hidden; }
+        .transition-shadow { transition: box-shadow 0.3s ease; }
+        .hover\:shadow-md:hover { box-shadow: var(--shadow-md); }
+        .hover\:underline:hover { text-decoration: underline; }
+
+        /* Header */
+        .header {
+            background-color: #fff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color-default);
+            text-decoration: none;
+        }
+        .logo span {
+            color: var(--primary-color);
+        }
+
+        /* Navigation */
+        .nav-menu {
+            display: none; /* Hidden by default on mobile */
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            padding: 2rem 1rem;
+            z-index: 999;
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .nav-menu.is-active {
+            transform: translateX(0);
+        }
+        .nav-menu a {
+            display: block;
+            padding: 0.75rem 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--text-color-default);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .nav-menu a:last-child {
+            border-bottom: none;
+        }
+        .nav-menu .close-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-color-default);
+        }
+
+        .hamburger-menu {
+            display: block; /* Show on mobile */
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--text-color-default);
+        }
+
+        /* Blog Grid */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: 1fr; /* 1 column on mobile */
+            gap: 1.5rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: var(--bg-color-light);
+            padding: 3rem 1rem;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: var(--primary-hover-color);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #f8f9fa;
+            padding: 3rem 0;
+            font-size: 0.9rem;
+        }
+        .footer .container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .footer-col h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col ul li {
+            margin-bottom: 0.5rem;
+        }
+        .footer-col ul li a {
+            color: #f8f9fa;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-col ul li a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            border-top: 1px solid #555;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 1rem;
+            color: #f8f9fa;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (min-width: 768px) { /* Tablet */
+            .hamburger-menu {
+                display: none;
+            }
+            .nav-menu {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                width: auto;
+                height: auto;
+                background-color: transparent;
+                padding: 0;
+                transform: translateX(0);
+                transition: none;
+            }
+            .nav-menu a {
+                padding: 0 1rem;
+                font-size: 1rem;
+                border-bottom: none;
+            }
+            .nav-menu .close-btn {
+                display: none;
+            }
+            .blog-grid {
+                grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+            }
+            .footer .container {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+            .footer-bottom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+            }
+        }
+
+        @media (min-width: 1024px) { /* Desktop */
+            .blog-grid {
+                grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+            }
+        }
+    </style>
+    <!-- Link to external stylesheet (as per rules, but all CSS is inline for this output) -->
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Label & <span>Lens</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <button class="close-btn" id="closeMenu">&times;</button>
+                <a href="/energielabel">Energielabel</a>
+                <a href="/vastgoedfotografie">Vastgoedfotografie</a>
+                <a href="/nen-2580-meting">NEN 2580 Meting</a>
+                <a href="/blog" aria-current="page">Blog</a>
+                <a href="/contact">Contact</a>
+            </nav>
+            <button class="hamburger-menu" id="hamburgerMenu">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-12 text-center bg-color-light">
+            <div class="container">
+                <h1 class="text-4xl font-bold mb-3">Blog</h1>
+                <p class="text-xl text-gray-600">Tips en informatie over energielabels, woningwaardering en vastgoed in Amsterdam</p>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/energielabel-verplicht-wanneer" class="hover:text-primary transition-colors">Energielabel Verplicht: Wanneer Heb Je Er Eentje Nodig?</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Wanneer is een energielabel verplicht? Bij verkoop, verhuur en nieuwbouw. Lees alles over de regels, boetes en uitzonderingen in 2026.</p>
+                            <a href="/blog/energielabel-verplicht-wanneer" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">commercial</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/energielabel-kosten-2026" class="hover:text-primary transition-colors">Wat Kost een Energielabel in 2026? Prijzen & Factoren</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Energielabel kosten in 2026: verwacht €100-€350 afhankelijk van woningtype. Vergelijk prijzen en bespaar met de juiste aanbieder.</p>
+                            <a href="/blog/energielabel-kosten-2026" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/energielabel-verbeteren-tips" class="hover:text-primary transition-colors">Energielabel Verbeteren: 7 Effectieve Maatregelen</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Wil je je energielabel verbeteren? Van G naar A? Ontdek 7 maatregelen die het meeste effect hebben, inclusief kosten en subsidies.</p>
+                            <a href="/blog/energielabel-verbeteren-tips" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/woning-verkopen-amsterdam-checklist" class="hover:text-primary transition-colors">Woning Verkopen in Amsterdam: De Complete Checklist 2026</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Je woning verkopen in Amsterdam? Gebruik onze checklist: van energielabel tot professionele foto's. Alles voor een snelle verkoop.</p>
+                            <a href="/blog/woning-verkopen-amsterdam-checklist" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/vastgoedfotografie-tips-betere-fotos" class="hover:text-primary transition-colors">Vastgoedfotografie Tips: Zo Maak Je Je Woning Onweerstaanbaar</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Met deze vastgoedfotografie tips verkoop je je woning sneller. Van belichting tot styling — professionele adviezen voor betere foto's.</p>
+                            <a href="/blog/vastgoedfotografie-tips-betere-fotos" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/wws-puntentelling-uitleg" class="hover:text-primary transition-colors">WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald?</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Alles over de WWS puntentelling: hoe het werkt, welke factoren meetellen, en hoe je de maximale huurprijs van je woning berekent.</p>
+                            <a href="/blog/wws-puntentelling-uitleg" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/nen-2580-meting-waarom-belangrijk" class="hover:text-primary transition-colors">NEN 2580 Meting: Waarom Het Belangrijk Is en Wat Het Kost</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Een NEN 2580 meting geeft je het exacte gebruiksoppervlak van je woning. Verplicht bij taxaties en huurprijsbepalingen. Lees meer.</p>
+                            <a href="/blog/nen-2580-meting-waarom-belangrijk" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/huurprijs-berekenen-amsterdam" class="hover:text-primary transition-colors">Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel?</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Bereken of je huurprijs eerlijk is. Gebruik de WWS puntentelling om je maximale huurprijs te bepalen. Speciaal voor Amsterdam.</p>
+                            <a href="/blog/huurprijs-berekenen-amsterdam" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/duurzaam-wonen-amsterdam-subsidies" class="hover:text-primary transition-colors">Duurzaam Wonen in Amsterdam: Alle Subsidies op een Rij (2026)</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Overzicht van alle subsidies voor duurzaam wonen in Amsterdam in 2026. Van isolatie tot zonnepanelen — tot €10.000+ subsidie mogelijk.</p>
+                            <a href="/blog/duurzaam-wonen-amsterdam-subsidies" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="p-6">
+                            <span class="text-xs font-medium text-primary uppercase tracking-wide">informational</span>
+                            <h2 class="text-xl font-bold mt-2 mb-3"><a href="/blog/energielabel-a-hoe-bereik-je-dat" class="hover:text-primary transition-colors">Energielabel A: Hoe Bereik Je Dat en Wat Levert Het Op?</a></h2>
+                            <p class="text-gray-600 text-sm mb-4">Een energielabel A verhoogt je woningwaarde met gemiddeld €15.000. Ontdek welke maatregelen nodig zijn en wat het kost.</p>
+                            <a href="/blog/energielabel-a-hoe-bereik-je-dat" class="text-primary font-semibold text-sm hover:underline">Lees meer →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="text-3xl font-bold mb-4">Hulp nodig met je energielabel?</h2>
+                <p class="text-lg text-gray-600 mb-6">Label & Lens is jouw partner voor een snel en betrouwbaar energielabel.</p>
+                <a href="/energielabel" class="cta-button">Vraag direct aan</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <h3>Label & Lens</h3>
+                <p>Jouw expert in energielabels, vastgoedfotografie en NEN 2580 metingen in Amsterdam en omstreken.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Snelle Links</h3>
+                <ul>
+                    <li><a href="/energielabel">Energielabel</a></li>
+                    <li><a href="/vastgoedfotografie">Vastgoedfotografie</a></li>
+                    <li><a href="/nen-2580-meting">NEN 2580 Meting</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Adres: [Jouw Adres]<br>
+                Telefoon: [Jouw Telefoonnummer]<br>
+                Email: <a href="mailto:info@labelenlens.nl">info@labelenlens.nl</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Label & Lens. Alle rechten voorbehouden.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJjdXJyZW50Q29sb3IiPjxwYXRoIGQ9Ik05IDguODg0aDMuMDk4bC0uMzA3IDMuMTExaC0yLjc5MXY3Ljk5OWgtMy4wMDJ2LTcuOTk5aC0xLjg4OWwtLjI5Ny0zLjExMWgxLjg4OWwtLjA1OC0xLjY0NWMwLTEuMzU1LjI0Ny0yLjU1MSAxLjc3Mi0yLjU1MSAyLjMzOCAwIDIuNzc4LjE3NSAyLjc3OC41MTZ2Mi4xMDFoMy4xMThsLjA0Mi0zLjExMWgtMy4xMThjLS4wMDUtLjE0NS0uMDI0LS40NzMtLjAyNC0uNzY3IDAtLjY0Ny4xMDktMS4xMzQuMzQ5LTEuNDY1LjI0LS4zMzEuNTg1LS41MDggMS4wMzYtLjUwOC40NTIgMCAuNzk4LjA4NyAxLjAzNi4yNjEuMjM5LjE3NC4zNDkuNDQ1LjM0OS44MTZ2Mi41NTFoMy4xMThsLS4wNDIgMy4xMTFoLTMuMDc2djcuOTk5aC0zLjAwMnYtNy45OTloLTIuNzkxbC4zMDctMy4xMTF6Ii8+PC9zdmc+" alt="Facebook" width="24" height="24"></a>
+                <a href="#" aria-label="Instagram"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJjdXJyZW50Q29sb3IiPjxwYXRoIGQ9Ik0xMiAwYy0zLjI0NyAwLTMuNjQ4LjAxMi00LjkyMi4wNzItMS4xNzguMDU5LTEuOTQ1LjIzNi0yLjY0Ni41MDgtLjcwNC4yNzItMS4yOTYuNjYtMS44ODQuOTY1LS41OTQuMzA2LTEuMTQ1LjY4Ny0xLjY3NiAxLjIwNy0uNTMyLjUxOS0uOTQ0IDEuMDctMS4yMDcgMS42NzYtLjMwNS41ODgtLjY5MyAxLjE3Ni0uOTY1IDEuODg0LS4yNzIuNzAxLS40NDkgMS40NjgtLjUwOCAyLjY0Ni0uMDU5IDEuMjc0LS4wNzIgMS42NzUtLjA3MiA0LjkyMnMwLjAxMiAzLjY0OC4wNzIgNC45MjJjLjA1OSAxLjE3OC4yMzYgMS45NDUuNTA4IDIuNjQ2LjI3Mi43MDQuNjYgMS4yOTYuOTY1IDEuODg0LjMwNi41OTQuNjg3IDEuMTQ1IDEuMjA3IDEuNjc2LjUxOS41MzIgMS4wNy45NDQgMS42NzYgMS4yMDcuNTg4LjMwNSAxLjE3Ni42OTMgMS44ODQuOTY1LjcwMS4yNzIgMS40NjguNDQ5IDIuNjQ2LjUwOCAxLjI3NC4wNTkgMS42NzUuMDcyIDQuOTIyLjA3MnMzLjY0OC0uMDEyIDQuOTIyLS4wNzJjMS4xNzgtLjA1OSAxLjk0NS0uMjM2IDIuNjQ2LS41MDguNzAzLS4yNzIuOTY1LS42NiAxLjg4NC0uOTY1LjU5NC0uMzA2IDEuMTQ1LS42ODcgMS42NzYtMS4yMDcuNTMxLS41MTkuOTQ0LTEuMDcgMS4yMDctMS42NzYuMzA1LS41ODguNjkzLTEuMTc2Ljk2NS0xLjg4NC4yNzItLjcwMS40NDktMS40NjguNTA4LTIuNjQ2LjA1OS0xLjI3NC4wNzItMS42NzUuMDcyLTQuOTIycy0uMDEyLTMuNjQ4LS4wNzItNC45MjJjLS4wNTktMS4xNzgtLjIzNi0xLjk0NS0uNTA4LTIuNjQ2LS4yNzItLjcwMy0uNjYtLjk2NS0uOTY1LTEuODg0LS4zMDYtLjU5NC0uNjg3LTEuMTQ1LTEuMjA3LTEuNjc2LS41MTktLjUzMi0xLjA3LS45NDQtMS42NzYtMS4yMDctLjU4OC0uMzA1LTEuMTc2LS42OTMtMS44ODQtLjk2NS0uNzAxLS4yNzItMS40NjgtLjQ0OS0yLjY0Ni0uNTA4LTEuMjc0LS4wNTktMS42NzUtLjA3Mi00LjkyMi0uMDcyeiBtMC0yYzMuMjczIDAgMy42ODMuMDEzIDQuOTYyLjA3MyAxLjI4LjA2MSAyLjE2Mi4yNDcgMy4wMDMuNTY0LjgyNC4zMDkgMS41MDkuNzI2IDIuMjI2IDEuNDQzLjcxNy43MTcgMS4xMzQgMS40MDMgMS40NDMgMi4yMjYuMzE3Ljg0MS41MDMgMS43MjMuNTY0IDMuMDAzLjA2IDEuMjc5LjA3MyAxLjgxOS4wNzMgNC45NjJzLS4wMTMgMy42ODMtLjA3MyA0Ljk2MmMtLjA2MSAxLjI4LS4yNDcgMi4xNjItLjU2NCAzLjAwMy0uMzA5LjgyNC0uNzI2IDEuNTA5LTEuNDQzIDIuMjI2LS43MTcuNzE3LTEuNDAzIDEuMTM0LTIuMjI2IDEuNDQzLS44NDEuMzE3LTEuNzIzLjUwMy0zLjAwMy41NjQtMS4yNzkuMDYtMS44MTkuMDczLTQuOTYyLjA3M3MtMy42ODMtLjAxMy00Ljk2Mi0uMDczYy0xLjI4LS4wNjEtMi4xNjItLjI0Ny0zLjAwMy0uNTY0LS44MjQtLjMwOS0xLjUwOS0uNzI2LTIuMjI2LTEuNDQzLS43MTctLjcxNy0xLjEzNC0xLjQwMy0xLjQ0My0yLjIyNi0uMzE3LS44NDEtLjUwMy0xLjcyMy0uNTY0LTMuMDAzLS4wNi0xLjI3OS0uMDczLTEuODE5LS4wNzMtNC45NjJzLjAxMy0zLjY4My4wNzMtNC45NjJjLjA2MS0xLjI4LjI0Ny0yLjE2Mi41NjQtMy4wMDMuMzA5LS44MjQuNzI2LTEuNTA5IDEuNDQzLTIuMjI2LjcxNy0uNzE3IDEuNDAzLTEuMTM0IDIuMjI2LTEuNDQzLjg0MS0uMzE3IDEuNzIzLS41MDMgMy4wMDMtLjU2NEM4LjMxNyAxLjMwMiA4Ljg1NyAxLjI4OSAxMiAxLjI4OXptMC0xLjI4OWMtMy4zMjIgMC0zLjc0MS4wMTItNS4wNDguMDczLTEuMzE1LjA2Mi0yLjIwNy4yNTQtMy4wMDcuNTY5LS44MDQuMzE1LTEuNDY5LjczOC0yLjE3NSAxLjQ0NC0uNzA1LjcwNS0xLjEyOCAxLjM3LTEuNDQ0IDIuMTc1LS4zMTUuODAxLS41MDcgMS42OTItLjU2OSAzLjAwNy0uMDYxIDEuMzA3LS4wNzMgMS43MjYtLjA3MyA1LjA0OHMwLjAxMiAzLjc0MS4wNzMgNS4wNDhjLjA2MiAxLjMxNS4yNTQgMi4yMDcuNTY5IDMuMDA3LjMxNS44MDQuNzM4IDEuNDY5IDEuNDQ0IDIuMTc1LjcwNS43MDUgMS4zNyAxLjEyOCAyLjE3NSAxLjQ0NC44MDEuMzE1IDEuNjkzLjUwNyAzLjAwNy41NjkuMzA3LjAxNS42MTQuMDI3LjkxOC4wMzMuMzAyLjAwNi42MDYuMDEuOTE4LjAxLjMwMiAwIC42MDYtLjAwNC45MDgtLjAxLjMwMi0uMDA2LjYwNi0uMDE4LjkxOC0uMDMzIDEuMzA3LS4wNjIgMS43MjYtLjA3MyA1LjA0OC0uMDczczMuNzQxLjAxMiA1LjA0OC4wNzNjMS4zMTUuMDYyIDIuMjA3LjI1NCAzLjAwNy41NjkuODA0LjMxNSAxLjQ2OS43MzggMi4xNzUgMS40NDQuNzA1LjcwNSAxLjEyOCAxLjM3IDEuNDQ0IDIuMTc1LjMxNS44MDEuNTA3IDEuNjkzLjU2OSAzLjAwNy4wNjEgMS4zMDcuMDczIDEuNzI2LjA3MyA1LjA0OHMtLjAxMiAzLjc0MS0uMDczIDUuMDQ4Yy0uMDYyIDEuMzE1LS4yNTQgMi4yMDctLjU2OSAzLjAwNy0uMzE1LjgwNC0uNzM4IDEuNDY5LTEuNDQ0IDIuMTc1LS43MDUuNzA1LTEuMzcgMS4xMjgtMi4xNzUgMS40NDQtLjgwMS4zMTUtMS42OTMuNTA3LTMuMDA3LjU2OS0xLjMwNy4wNjEtMS43MjYuMDczLTUuMDQ4LjA3M3ptLTUuNzQyLTkuMjA5Yy0uNjYxIDAtMS4xOTcuNTM2LTEuMTk3IDEuMTk3czUuMzYgMS4xOTcgMS4xOTcgMS4xOTcgMS4xOTctLjUzNiAxLjE5Ny0xLjE5Ny0uNTM2LTEuMTk3LTEuMTk3LTEuMTk3em0xMS40ODQgMGMtLjY2MSAwLTEuMTk3LjUzNi0xLjE5NyAxLjE5N3MuNTM2IDEuMTk3IDEuMTk3IDEuMTk3IDEuMTk3LS41MzYgMS4xOTctMS4xOTctLjUzNi0xLjE5Ny0xLjE5Ny0xLjE5N3ptLTUuNzQyIDQuNjM4Yy0yLjA2NSAwLTMuNzQyIDEuNjc3LTMuNzQyIDMuNzQyczEuNjc3IDMuNzQyIDMuNzQyIDMuNzQyIDMuNzQyLTEuNjc3IDMuNzQyLTMuNzQyLTEuNjc3LTMuNzQyLTMuNzQyLTMuNzQyem0wIDYuMjgyYy0xLjM5OSAwLTIuNTQyLTEuMTQzLTIuNTQyLTIuNTQyczEuMTQzLTIuNTQyIDIuNTQyLTIuNTQyIDIuNTQyIDEuMTQzIDIuNTQyIDIuNTQyLTEuMTQzIDIuNTQyLTIuNTQyIDIuNTQyem02LjA0Ni0xMC41OTdjLS42NjEgMC0xLjE5Ny41MzYtMS4xOTcgMS4xOTdzLjUzNiAxLjE5NyAxLjE5NyAxLjE5NyAxLjE5Ny0uNTM2IDEuMTk3LTEuMTk3LS41MzYtMS4xOTctMS4xOTctMS4xOTd6Ii8+PC9zdmc+" alt="Instagram" width="24" height="24"></a>
+                <!-- Add more social icons as needed -->
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerMenu = document.getElementById('hamburgerMenu');
+            const navMenu = document.getElementById('navMenu');
+            const closeMenu = document.getElementById('closeMenu');
+
+            hamburgerMenu.addEventListener('click', function() {
+                navMenu.classList.add('is-active');
+            });
+
+            closeMenu.addEventListener('click', function() {
+                navMenu.classList.remove('is-active');
+            });
+
+            // Close menu when a link is clicked (for single-page navigation or if user navigates)
+            navMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('is-active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

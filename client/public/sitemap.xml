@@ -42,4 +42,15 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.labelenlens.nl/contact"/>
   </url>
 
+  <url><loc>https://www.labelenlens.nl/blog/energielabel-verplicht-wanneer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/energielabel-kosten-2026</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/energielabel-verbeteren-tips</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/woning-verkopen-amsterdam-checklist</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/vastgoedfotografie-tips-betere-fotos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/wws-puntentelling-uitleg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/nen-2580-meting-waarom-belangrijk</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/huurprijs-berekenen-amsterdam</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/duurzaam-wonen-amsterdam-subsidies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog/energielabel-a-hoe-bereik-je-dat</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.labelenlens.nl/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -3,27 +3,39 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Home from "@/pages/Home";
-import Energielabel from "@/pages/Energielabel";
-import Fotografie from "@/pages/Fotografie";
-import NotFound from "@/pages/not-found";
-import EnergielabelAmsterdam from "@/pages/EnergielabelAmsterdam";
-import Energielabels from "@/pages/Energielabels";
-import WwsPuntentelling from "@/pages/WwsPuntentelling";
-import Nen2580Metingen from "@/pages/Nen2580Metingen";
+import { lazy, Suspense } from "react";
+
+const Home = lazy(() => import("@/pages/Home"));
+const Energielabel = lazy(() => import("@/pages/Energielabel"));
+const Energielabels = lazy(() => import("@/pages/Energielabels"));
+const EnergielabelAmsterdam = lazy(() => import("@/pages/EnergielabelAmsterdam"));
+const Fotografie = lazy(() => import("@/pages/Fotografie"));
+const WwsPuntentelling = lazy(() => import("@/pages/WwsPuntentelling"));
+const Nen2580Metingen = lazy(() => import("@/pages/Nen2580Metingen"));
+const NotFound = lazy(() => import("@/pages/not-found"));
+
+function Loading() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="animate-pulse text-muted-foreground">Laden...</div>
+    </div>
+  );
+}
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/energielabel" component={Energielabel} />
-      <Route path="/energielabels" component={Energielabels} />
-      <Route path="/energielabel-aanvragen-amsterdam/" component={EnergielabelAmsterdam} />
-      <Route path="/fotografie" component={Fotografie} />
-      <Route path="/wws-puntentelling/" component={WwsPuntentelling} />
-      <Route path="/nen-2580-metingen/" component={Nen2580Metingen} />
-      <Route component={NotFound} />
-    </Switch>
+    <Suspense fallback={<Loading />}>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/energielabel" component={Energielabel} />
+        <Route path="/energielabels" component={Energielabels} />
+        <Route path="/energielabel-aanvragen-amsterdam/" component={EnergielabelAmsterdam} />
+        <Route path="/fotografie" component={Fotografie} />
+        <Route path="/wws-puntentelling/" component={WwsPuntentelling} />
+        <Route path="/nen-2580-metingen/" component={Nen2580Metingen} />
+        <Route component={NotFound} />
+      </Switch>
+    </Suspense>
   );
 }
 

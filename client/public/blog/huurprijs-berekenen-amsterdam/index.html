@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel? | Label & Lens</title>
+    <meta name="description" content="Bereken of je huurprijs eerlijk is. Gebruik de WWS puntentelling om je maximale huurprijs te bepalen. Speciaal voor Amsterdam.">
+    <link rel="canonical" href="https://www.labelenlens.nl/blog/huurprijs-berekenen-amsterdam">
+
+    <!-- Google Fonts: Inter (preload for performance) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+
+    <!-- Tailwind CSS (as per instruction, though critical CSS is inline) -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.labelenlens.nl/blog/huurprijs-berekenen-amsterdam">
+    <meta property="og:title" content="Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel? | Label & Lens">
+    <meta property="og:description" content="Bereken of je huurprijs eerlijk is. Gebruik de WWS puntentelling om je maximale huurprijs te bepalen. Speciaal voor Amsterdam.">
+    <meta property="og:image" content="https://www.labelenlens.nl/images/og-image-huurprijs.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.labelenlens.nl/blog/huurprijs-berekenen-amsterdam">
+    <meta property="twitter:title" content="Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel? | Label & Lens">
+    <meta property="twitter:description" content="Bereken of je huurprijs eerlijk is. Gebruik de WWS puntentelling om je maximale huurprijs te bepalen. Speciaal voor Amsterdam.">
+    <meta property="twitter:image" content="https://www.labelenlens.nl/images/twitter-image-huurprijs.jpg">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel?",
+      "description": "Bereken of je huurprijs eerlijk is. Gebruik de WWS puntentelling om je maximale huurprijs te bepalen. Speciaal voor Amsterdam.",
+      "image": [
+        "https://www.labelenlens.nl/images/blog-huurprijs-hero.jpg"
+      ],
+      "datePublished": "2026-03-29T08:00:00+01:00",
+      "author": {
+        "@type": "Person",
+        "name": "Paulo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Label & Lens",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.labelenlens.nl/images/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.labelenlens.nl/blog/huurprijs-berekenen-amsterdam"
+      }
+    }
+    </script>
+
+    <!-- Inline Critical CSS -->
+    <style>
+        :root {
+            --color-primary-green: hsl(84, 75%, 55%);
+            --color-off-white: #faf9f7;
+            --color-white: #ffffff;
+            --color-text-dark: #333333;
+            --color-text-light: #555555;
+            --border-radius-card: 8px;
+            --spacing-unit: 1rem; /* 16px */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-off-white);
+            color: var(--color-text-dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a {
+            color: var(--color-primary-green);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+        }
+
+        /* Header */
+        .header {
+            background-color: var(--color-white);
+            padding: var(--spacing-unit) 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--color-text-dark);
+        }
+
+        .nav-menu {
+            display: none; /* Hidden by default on mobile */
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: var(--color-white);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            padding: var(--spacing-unit) 0;
+            text-align: center;
+        }
+
+        .nav-menu.is-active {
+            display: flex;
+        }
+
+        .nav-menu a, .nav-menu button {
+            padding: 0.75rem var(--spacing-unit);
+            color: var(--color-text-dark);
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .nav-menu a:hover, .nav-menu button:hover {
+            background-color: var(--color-off-white);
+            text-decoration: none;
+        }
+
+        .nav-cta-mobile {
+            margin-top: var(--spacing-unit);
+        }
+
+        .nav-cta-mobile .button-primary {
+            width: calc(100% - 2 * var(--spacing-unit));
+            margin: 0 var(--spacing-unit);
+        }
+
+        .hamburger {
+            display: block; /* Show on mobile */
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            color: var(--color-text-dark);
+        }
+
+        .nav-desktop {
+            display: none; /* Hidden by default on mobile */
+            align-items: center;
+        }
+
+        .nav-desktop a {
+            margin-left: 1.5rem;
+            color: var(--color-text-dark);
+            font-weight: 600;
+        }
+
+        .button-primary {
+            background-color: var(--color-primary-green);
+            color: var(--color-white);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--border-radius-card);
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .button-primary:hover {
+            background-color: hsl(84, 75%, 45%); /* Slightly darker green */
+            text-decoration: none;
+        }
+
+        /* Main content */
+        .main-content {
+            padding: 2rem 0;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb a {
+            color: var(--color-text-light);
+        }
+
+        .article-card {
+            background-color: var(--color-white);
+            padding: 2rem;
+            border-radius: var(--border-radius-card);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .article-card h1 {
+            color: var(--color-text-dark);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        .article-card h2 {
+            color: var(--color-text-dark);
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-card p {
+            margin-bottom: 1rem;
+        }
+
+        .article-card ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-card ol {
+            list-style-type: decimal;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .callout-box {
+            background-color: hsl(84, 75%, 90%); /* Lighter shade of primary green */
+            border-left: 5px solid var(--color-primary-green);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: var(--border-radius-card);
+            color: var(--color-text-dark);
+        }
+
+        .callout-box strong {
+            color: var(--color-primary-green);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: var(--color-primary-green);
+            color: var(--color-white);
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 3rem;
+            border-radius: var(--border-radius-card);
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--color-white);
+        }
+
+        .cta-section p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons a {
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        .button-secondary {
+            background-color: var(--color-white);
+            color: var(--color-primary-green);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--border-radius-card);
+            font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border: 1px solid var(--color-white);
+        }
+
+        .button-secondary:hover {
+            background-color: transparent;
+            color: var(--color-white);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--color-text-dark);
+            color: var(--color-white);
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-col {
+            flex: 1 1 100%; /* Stack on mobile */
+            min-width: 200px;
+        }
+
+        .footer-col h3 {
+            font-size: 1.125rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary-green);
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-col a {
+            color: var(--color-white);
+            font-size: 0.9rem;
+        }
+
+        .footer-col a:hover {
+            color: var(--color-primary-green);
+            text-decoration: none;
+        }
+
+        .footer-logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--color-white);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none; /* Hide hamburger on larger screens */
+            }
+
+            .nav-menu {
+                display: none; /* Hide mobile menu on larger screens */
+            }
+
+            .nav-desktop {
+                display: flex; /* Show desktop nav */
+            }
+
+            .header-content {
+                position: static;
+            }
+
+            .footer-grid {
+                flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+            }
+
+            .footer-col {
+                flex: 1;
+            }
+
+            .article-card h1 {
+                font-size: 2.5rem;
+            }
+
+            .article-card h2 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/" class="logo">Label & Lens</a>
+            <button class="hamburger" id="hamburger-menu" aria-label="Open menu">☰</button>
+            <nav class="nav-menu" id="mobile-menu">
+                <a href="/energielabel">Energielabel</a>
+                <a href="/fotografie">Fotografie</a>
+                <a href="/blog">Blog</a>
+                <a href="/#contact">Contact</a>
+                <div class="nav-cta-mobile">
+                    <a href="/energielabel" class="button-primary">Aanvragen</a>
+                </div>
+            </nav>
+            <nav class="nav-desktop">
+                <a href="/energielabel">Energielabel</a>
+                <a href="/fotografie">Fotografie</a>
+                <a href="/blog">Blog</a>
+                <a href="/#contact">Contact</a>
+                <a href="/energielabel" class="button-primary" style="margin-left: 2rem;">Aanvragen</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
+                    <li style="display: inline-block;"><a href="/">Home</a></li>
+                    <li style="display: inline-block; margin: 0 0.5rem;">&gt;</li>
+                    <li style="display: inline-block;"><a href="/blog">Blog</a></li>
+                    <li style="display: inline-block; margin: 0 0.5rem;">&gt;</li>
+                    <li style="display: inline-block;" aria-current="page">Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel?</li>
+                </ol>
+            </nav>
+
+            <article class="article-card">
+                <h1>Huurprijs Berekenen in Amsterdam: Betaal Je Te Veel?</h1>
+                <p class="article-meta">Door Paulo | Label & Lens | Gepubliceerd: maart 2026</p>
+
+                <p><strong>Woon je in Amsterdam en vraag je je af of de huurprijs die je betaalt wel eerlijk is? Je bent niet de enige. Met de huidige woningmarkt en de complexiteit van huurrecht is het voor veel huurders lastig om te bepalen of hun huurprijs in lijn is met de wettelijke normen. Het goede nieuws is dat er tools en regels zijn, zoals de Woningwaarderingsstelsel (WWS) puntentelling, die je kunnen helpen om dit te achterhalen. In dit artikel duiken we dieper in hoe je zelf kunt controleren of je niet te veel betaalt en welke stappen je kunt ondernemen als dat wel het geval is, specifiek gericht op de Amsterdamse situatie.</strong></p>
+
+                <h2>Hoe de Huurprijs Wordt Bepaald: Het WWS Puntensysteem</h2>
+                <p>De maximale huurprijs van een sociale huurwoning in Nederland wordt bepaald aan de hand van het Woningwaarderingsstelsel (WWS), ook wel het puntensysteem genoemd. Dit systeem kent punten toe aan verschillende aspecten van een woning, zoals de oppervlakte, de kwaliteit van de keuken en badkamer, de aanwezigheid van buitenruimte, en de energiezuinigheid. Hoe meer punten een woning scoort, hoe hoger de maximale huurprijs mag zijn. Het is cruciaal om te begrijpen dat dit systeem een bovengrens stelt; de verhuurder mag nooit meer vragen dan deze maximale huurprijs. Voor woningen in de vrije sector geldt het WWS in principe niet, maar er zijn uitzonderingen en discussies over de uitbreiding van het systeem naar de middenhuur. Voor huurders in Amsterdam is het extra relevant, gezien de hoge huurprijzen en de druk op de woningmarkt.</p>
+                <p>Een belangrijk onderdeel van de puntentelling is het energielabel van de woning. Een woning met een beter energielabel (bijvoorbeeld A of B) krijgt meer punten dan een woning met een slecht label (G of F). Dit stimuleert verhuurders om te investeren in duurzaamheid en helpt huurders te besparen op energiekosten. Wil je meer weten over de puntentelling en hoe deze jouw huurprijs beïnvloeden? Bezoek onze pagina over de <a href="/wws-puntentelling/">WWS puntentelling</a> voor een gedetailleerde uitleg.</p>
+
+                <h2>Puntentelling voor Jouw Stadsdeel in Amsterdam</h2>
+                <p>Hoewel het WWS een landelijk systeem is, zijn er in Amsterdam specifieke factoren die de puntentelling en daarmee de huurprijs kunnen beïnvloeden. De gemeente Amsterdam heeft bijvoorbeeld een eigen beleid ten aanzien van de middenhuur en probeert actief de betaalbaarheid te bewaken. De locatie van je woning binnen Amsterdam speelt ook een rol; de WOZ-waarde van de woning, die een factor is in de puntentelling, verschilt sterk per stadsdeel en zelfs per buurt. Een appartement in Amsterdam-Centrum zal doorgaans een hogere WOZ-waarde en daarmee meer punten krijgen dan een vergelijkbare woning in Amsterdam-Noord of Zuidoost.</p>
+                <p>Het is daarom aan te raden om, naast de algemene WWS-regels, ook te kijken naar de specifieke kenmerken van jouw stadsdeel. Websites van de gemeente Amsterdam en het Huurteam Amsterdam bieden vaak aanvullende informatie en tools om een inschatting te maken van de maximale huurprijs in jouw specifieke situatie. Houd er rekening mee dat de regels en de maximale huurprijzen jaarlijks kunnen worden aangepast, dus zorg ervoor dat je altijd de meest actuele informatie raadpleegt.</p>
+
+                <div class="callout-box">
+                    <strong>Tip van Label & Lens:</strong> Verzamel alle documentatie van je woning, zoals het huurcontract, de oppervlaktegegevens en het energielabel. Deze zijn essentieel voor een accurate puntentelling. Een actueel energielabel kan je huurprijs positief beïnvloeden en is vaak een goed startpunt voor je onderzoek!
+                </div>
+
+                <h2>Wanneer Heb Je Recht op Huurverlaging?</h2>
+                <p>Je hebt recht op huurverlaging als de huurprijs die je betaalt hoger is dan de maximale huurprijs volgens het WWS puntensysteem. Dit geldt voor woningen in de sociale huursector. Voor woningen in de vrije sector is dit complexer, maar ook daar zijn er situaties waarin je actie kunt ondernemen, bijvoorbeeld als de overeengekomen huurprijs bij aanvang van het contract onredelijk hoog was voor de geboden kwaliteit, of als er sprake is van ernstige gebreken. De grens tussen sociale en vrije sector ligt bij de liberalisatiegrens, die jaarlijks wordt vastgesteld (in 2026 waarschijnlijk rond de €870). Als jouw woning onder deze grens valt op basis van de puntentelling, maar je betaalt een hogere huur, dan kun je in aanmerking komen voor huurverlaging.</p>
+                <p>Daarnaast kunnen er andere redenen zijn voor huurverlaging, zoals een daling van je inkomen waardoor je niet meer in staat bent de huur te betalen, of als de woning ernstige gebreken vertoont die de verhuurder weigert te herstellen. Het is belangrijk om te weten dat je in de meeste gevallen binnen zes maanden na de start van je huurcontract actie moet ondernemen om de aanvangshuurprijs te laten toetsen. Voor gebreken of inkomensdaling gelden andere termijnen en procedures.</p>
+
+                <h2>Stappen bij de Huurcommissie</h2>
+                <p>Als je vermoedt dat je te veel huur betaalt, is de Huurcommissie de aangewezen instantie om je te helpen. De procedure begint meestal met het zelf berekenen van de maximale huurprijs via de puntentelling. Vervolgens dien je een verzoek in bij de Huurcommissie. Dit kan online via hun website. De Huurcommissie zal dan een onderzoek starten, waarbij ze zowel jou als de verhuurder om informatie vragen. Vaak volgt er een zitting waarbij beide partijen hun standpunt kunnen toelichten. De Huurcommissie doet vervolgens een bindende uitspraak.</p>
+                <p>Het is belangrijk om goed voorbereid te zijn op dit proces. Verzamel alle relevante documenten, zoals je huurcontract, een kopie van het energielabel (indien beschikbaar), foto's van eventuele gebreken, en je eigen berekening van de puntentelling. De Huurcommissie kan ook een deskundige sturen om de woning te inspecteren. Houd er rekening mee dat het proces enige tijd in beslag kan nemen, maar een positieve uitspraak kan leiden tot een aanzienlijke verlaging van je huurprijs, vaak met terugwerkende kracht.</p>
+                <p>Voor meer algemene informatie over woningdocumenten en verplichtingen, lees ook onze blogpost over <a href="/blog/energielabel-verplicht-wanneer">wanneer een energielabel verplicht is</a>.</p>
+
+                <h2>Amsterdam-Specifieke Factoren en Beleid</h2>
+                <p>Amsterdam heeft, als een van de meest gespannen woningmarkten van Europa, een eigen beleid om de betaalbaarheid te verbeteren. De gemeente heeft bijvoorbeeld de opkoopbescherming ingevoerd, waardoor woningen in bepaalde wijken niet zomaar meer mogen worden opgekocht voor verhuur. Ook zijn er plannen om het WWS-systeem uit te breiden naar een deel van de middenhuur, om zo ook in dat segment de huurprijzen te reguleren. Dit betekent dat huurders in Amsterdam extra alert moeten zijn op de ontwikkelingen en hun rechten.</p>
+                <p>Daarnaast speelt de schaarste aan woningen een rol. Verhuurders kunnen in Amsterdam vaak hogere prijzen vragen dan in minder populaire steden, zelfs als de woning niet veel punten scoort. Dit maakt het des te belangrijker voor huurders om hun rechten te kennen en, indien nodig, actie te ondernemen. Lokale organisaties zoals het Huurteam Amsterdam bieden gratis advies en ondersteuning aan huurders die twijfelen over hun huurprijs of problemen hebben met hun verhuurder. Zij kunnen je helpen met de puntentelling en het indienen van een verzoek bij de Huurcommissie.</p>
+                <p>Een ander punt van aandacht is de energiezuinigheid van woningen in Amsterdam, met veel oudere panden. Een slecht energielabel kan leiden tot hogere energiekosten en minder punten in het WWS. Meer informatie over de kosten van een energielabel en de voordelen ervan vind je in onze blog over <a href="/blog/energielabel-kosten-2026">energielabel kosten in 2026</a>.</p>
+
+                <h2>Conclusie: Weet Wat Je Rechten Zijn</h2>
+                <p>Het bepalen of je huurprijs in Amsterdam eerlijk is, vergt enige inspanning, maar het kan je op de lange termijn veel geld besparen. Door het WWS puntensysteem te begrijpen, de specifieke Amsterdamse factoren mee te wegen en de juiste stappen te ondernemen bij de Huurcommissie, sta je sterker in je schoenen. Weet dat je niet alleen staat; er zijn diverse instanties die je kunnen helpen bij dit proces. Neem de tijd om je rechten te onderzoeken en aarzel niet om hulp in te schakelen als je vermoedt dat je te veel betaalt. Een eerlijke huurprijs is een recht, geen gunst.</p>
+            </article>
+        </div>
+    </main>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Hulp nodig bij het berekenen van je huurprijs?</h2>
+            <p>De WWS puntentelling kan complex zijn, zeker met de specifieke regels in Amsterdam. Laat Label & Lens je helpen om te bepalen of jouw huurprijs eerlijk is en wat je maximale huurprijs zou moeten zijn.</p>
+            <div class="cta-buttons">
+                <a href="/wws-puntentelling/" class="button-secondary">Laat je huurprijs berekenen →</a>
+                <a href="tel:+31643735719" class="button-secondary">Bel ons: +31 6 43 73 57 19</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/" class="footer-logo">Label & Lens</a>
+                    <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.7);">Jouw partner voor energielabels en vastgoedfotografie.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigatie</h3>
+                    <ul>
+                        <li><a href="/energielabel">Energielabel</a></li>
+                        <li><a href="/fotografie">Fotografie</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Diensten</h3>
+                    <ul>
+                        <li><a href="/energielabel">Energielabel aanvragen</a></li>
+                        <li><a href="/fotografie">Vastgoedfotografie</a></li>
+                        <li><a href="/wws-puntentelling">WWS puntentelling</a></li>
+                        <li><a href="/contact">Advies op maat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:info@labelenlens.nl">info@labelenlens.nl</a></li>
+                        <li><a href="tel:+31643735719">+31 6 43 73 57 19</a></li>
+                        <li>KVK: 87532638</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Label & Lens. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.getElementById('hamburger-menu');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            hamburger.addEventListener('click', function() {
+                mobileMenu.classList.toggle('is-active');
+                this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+            });
+
+            // Close menu when a link is clicked (for single-page navigation or general UX)
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('is-active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu if clicked outside (optional, but good for UX)
+            document.addEventListener('click', function(event) {
+                if (!mobileMenu.contains(event.target) && !hamburger.contains(event.target)) {
+                    mobileMenu.classList.remove('is-active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Handle desktop menu display on resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth >= 768) { // Matches the media query breakpoint
+                    mobileMenu.classList.remove('is-active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

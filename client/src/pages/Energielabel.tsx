@@ -15,7 +15,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import type { PropertySize, FotografiePakket } from "@shared/schema";
-import heroImage from "@assets/amsterdam-canal-houses_1760692744422.png";
+import heroImage from "@assets/amsterdam-canal-houses_1760692744422.webp";
 import { useSEO } from "@/hooks/useSEO";
 
 type PropertyType = "koop" | "huur";

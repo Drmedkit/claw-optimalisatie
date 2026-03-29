@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { ScrollReveal } from "@/components/ScrollReveal";
-import pauloPortrait from "@assets/paulo-portrait_1760692744422.jpg";
+import pauloPortrait from "@assets/paulo-portrait_1760692744422.webp";
 import { MessageCircle, Zap, Layers, Search, Lightbulb, Clock } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 

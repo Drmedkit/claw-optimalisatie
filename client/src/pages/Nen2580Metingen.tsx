@@ -13,7 +13,7 @@ import {
 import { Link } from "wouter";
 import { FaWhatsapp } from "react-icons/fa";
 import { useSEO } from "@/hooks/useSEO";
-import heroImage from "@assets/new-amsterdam-canal_1760876000697.png";
+import heroImage from "@assets/new-amsterdam-canal_1760876000697.webp";
 import { useState, useEffect } from "react";
 
 const AMSTERDAM_STADSDELEN = [

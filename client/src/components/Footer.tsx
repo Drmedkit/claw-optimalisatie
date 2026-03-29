@@ -1,7 +1,7 @@
 import { Link, useLocation } from "wouter";
 import { Mail, Phone, MapPin, Building2 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import logoImage from "@assets/image_1771231176708.png";
+import logoImage from "@assets/image_1771231176708.webp";
 
 export function Footer() {
   const [location] = useLocation();

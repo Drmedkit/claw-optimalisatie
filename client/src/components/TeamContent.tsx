@@ -1,6 +1,6 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Card, CardContent } from "@/components/ui/card";
-import pauloPortrait from "@assets/image_1774346625268.png";
+import pauloPortrait from "@assets/image_1774346625268.webp";
 
 export function TeamContent() {
   return (

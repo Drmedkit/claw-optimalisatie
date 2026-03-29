@@ -9,7 +9,7 @@ import { Check, Zap, Clock, Shield, MessageCircle, Search, Layers, ChevronDown, 
 import { FaWhatsapp } from "react-icons/fa";
 import { useSEO } from "@/hooks/useSEO";
 import { EnergieLabelVoorbeeld } from "@/components/EnergieLabelVoorbeeld";
-import heroImage from "@assets/new-amsterdam-canal_1760876000697.png";
+import heroImage from "@assets/new-amsterdam-canal_1760876000697.webp";
 
 const jsonLd = [
   {

@@ -16,30 +16,30 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import type { QuoteRequest } from "@shared/schema";
 import { quoteRequestSchema, calculatorPricing } from "@shared/schema";
-import heroImage from "@assets/amsterdam-canal-boats_1760692744422.jpg";
-import tabletImage from "@assets/generated_images/Tablet_with_360_virtual_tour_22a86885.png";
-import videoImage from "@assets/generated_images/Film_clapperboard_with_reels_f64149d2.png";
+import heroImage from "@assets/amsterdam-canal-boats_1760692744422.webp";
+import tabletImage from "@assets/generated_images/Tablet_with_360_virtual_tour_22a86885.webp";
+import videoImage from "@assets/generated_images/Film_clapperboard_with_reels_f64149d2.webp";
 import { useSEO } from "@/hooks/useSEO";
 
 // Portfolio photos
-import photo01 from "@assets/Welnastraat 159 Amsterdam-01_1761143910682.jpg";
-import photo02 from "@assets/Welnastraat 159 Amsterdam-02_1761143910683.jpg";
-import photo04 from "@assets/Welnastraat 159 Amsterdam-04_1761143910682.jpg";
-import photo05 from "@assets/Welnastraat 159 Amsterdam-05_1761143910683.jpg";
-import photo06 from "@assets/Welnastraat 159 Amsterdam-06_1761143910683.jpg";
-import photo10 from "@assets/Welnastraat 159 Amsterdam-10_1761143910683.jpg";
-import photo11 from "@assets/Welnastraat 159 Amsterdam-11_1761143910683.jpg";
-import photo12 from "@assets/Welnastraat 159 Amsterdam-12_1761143910683.jpg";
-import photo13 from "@assets/Welnastraat 159 Amsterdam-13_1761143910683.jpg";
-import photo14 from "@assets/Welnastraat 159 Amsterdam-14_1761143910683.jpg";
-import photo16 from "@assets/Welnastraat 159 Amsterdam-16_1761143910682.jpg";
-import photo17 from "@assets/Welnastraat 159 Amsterdam-17_1761143910683.jpg";
-import photo18 from "@assets/Welnastraat 159 Amsterdam-18_1761143910683.jpg";
-import photo19 from "@assets/Welnastraat 159 Amsterdam-19_1761143910682.jpg";
-import photo19a from "@assets/Welnastraat 159 Amsterdam-19a_1761143910683.jpg";
-import photo20 from "@assets/Welnastraat 159 Amsterdam-20_1761143910683.jpg";
+import photo01 from "@assets/Welnastraat 159 Amsterdam-01_1761143910682.webp";
+import photo02 from "@assets/Welnastraat 159 Amsterdam-02_1761143910683.webp";
+import photo04 from "@assets/Welnastraat 159 Amsterdam-04_1761143910682.webp";
+import photo05 from "@assets/Welnastraat 159 Amsterdam-05_1761143910683.webp";
+import photo06 from "@assets/Welnastraat 159 Amsterdam-06_1761143910683.webp";
+import photo10 from "@assets/Welnastraat 159 Amsterdam-10_1761143910683.webp";
+import photo11 from "@assets/Welnastraat 159 Amsterdam-11_1761143910683.webp";
+import photo12 from "@assets/Welnastraat 159 Amsterdam-12_1761143910683.webp";
+import photo13 from "@assets/Welnastraat 159 Amsterdam-13_1761143910683.webp";
+import photo14 from "@assets/Welnastraat 159 Amsterdam-14_1761143910683.webp";
+import photo16 from "@assets/Welnastraat 159 Amsterdam-16_1761143910682.webp";
+import photo17 from "@assets/Welnastraat 159 Amsterdam-17_1761143910683.webp";
+import photo18 from "@assets/Welnastraat 159 Amsterdam-18_1761143910683.webp";
+import photo19 from "@assets/Welnastraat 159 Amsterdam-19_1761143910682.webp";
+import photo19a from "@assets/Welnastraat 159 Amsterdam-19a_1761143910683.webp";
+import photo20 from "@assets/Welnastraat 159 Amsterdam-20_1761143910683.webp";
 import floorplanImage from "@assets/629 (1)_1761217509236.webp";
-import brochureScreenshot from "@assets/image_1761293948140.png";
+import brochureScreenshot from "@assets/image_1761293948140.webp";
 
 const fotografieJsonLd = {
   "@context": "https://schema.org",

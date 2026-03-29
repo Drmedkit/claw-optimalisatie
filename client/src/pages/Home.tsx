@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Footer } from "@/components/Footer";
-import heroImage from "@assets/new-amsterdam-canal_1760876000697.png";
+import heroImage from "@assets/new-amsterdam-canal_1760876000697.webp";
 import { HomepageSelector } from "@/components/HomepageSelector";
 import { HoeHetWerkt } from "@/components/HoeHetWerkt";
 import { OnseDiensten } from "@/components/OnseDiensten";

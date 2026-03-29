@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald? | Label & Lens</title>
+    <meta name="description" content="Alles over de WWS puntentelling: hoe het werkt, welke factoren meetellen, en hoe je de maximale huurprijs van je woning berekent.">
+    <link rel="canonical" href="https://www.labelenlens.nl/blog/wws-puntentelling-uitleg">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.labelenlens.nl/blog/wws-puntentelling-uitleg">
+    <meta property="og:title" content="WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald? | Label & Lens">
+    <meta property="og:description" content="Alles over de WWS puntentelling: hoe het werkt, welke factoren meetellen, en hoe je de maximale huurprijs van je woning berekent.">
+    <meta property="og:image" content="https://www.labelenlens.nl/images/og-image-wws.jpg"> <!-- Voorbeeld afbeelding -->
+    <meta property="og:site_name" content="Label & Lens">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.labelenlens.nl/blog/wws-puntentelling-uitleg">
+    <meta property="twitter:title" content="WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald? | Label & Lens">
+    <meta property="twitter:description" content="Alles over de WWS puntentelling: hoe het werkt, welke factoren meetellen, en hoe je de maximale huurprijs van je woning berekent.">
+    <meta property="twitter:image" content="https://www.labelenlens.nl/images/twitter-image-wws.jpg"> <!-- Voorbeeld afbeelding -->
+
+    <!-- Google Fonts - Inter (preload, non-blocking) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Inline Critical CSS -->
+    <style>
+        :root {
+            --primary-green: hsl(84, 75%, 55%);
+            --off-white-bg: #faf9f7;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--off-white-bg);
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .bg-primary-green {
+            background-color: var(--primary-green);
+        }
+        .text-primary-green {
+            color: var(--primary-green);
+        }
+        .border-primary-green {
+            border-color: var(--primary-green);
+        }
+        .rounded-lg {
+            border-radius: 8px;
+        }
+        .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        /* Basic responsive adjustments for header/footer */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        .nav-links {
+            display: none; /* Hidden by default on mobile */
+        }
+        .hamburger {
+            display: block; /* Visible by default on mobile */
+        }
+        @media (min-width: 768px) { /* md breakpoint for Tailwind */
+            .nav-links {
+                display: flex !important; /* Always show on desktop */
+            }
+            .hamburger {
+                display: none; /* Hide on desktop */
+            }
+        }
+        /* Basic prose styles for readability */
+        .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.75em;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        .prose p {
+            margin-bottom: 1em;
+        }
+        .prose ul, .prose ol {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding-left: 1.5em;
+        }
+        .prose ul li, .prose ol li {
+            margin-bottom: 0.5em;
+        }
+        .prose a {
+            color: var(--primary-green);
+            text-decoration: underline;
+        }
+        .prose a:hover {
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- Tailwind CSS (external) -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald?",
+      "image": [
+        "https://www.labelenlens.nl/images/wws-puntentelling-hero.jpg"
+       ],
+      "datePublished": "2026-03-29T08:00:00+01:00",
+      "dateModified": "2026-03-29T08:00:00+01:00",
+      "author": {
+        "@type": "Person",
+        "name": "Paulo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Label & Lens",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.labelenlens.nl/images/labelenlens-logo.png"
+        }
+      },
+      "description": "Alles over de WWS puntentelling: hoe het werkt, welke factoren meetellen, en hoe je de maximale huurprijs van je woning berekent.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.labelenlens.nl/blog/wws-puntentelling-uitleg"
+      }
+    }
+    </script>
+</head>
+<body class="bg-[#faf9f7] text-gray-800 antialiased">
+
+    <!-- Sticky Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-gray-900">Label & Lens</a>
+            
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[hsl(84,75%,55%)]" aria-label="Open menu">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Desktop Navigation Links -->
+            <div id="main-nav-links" class="hidden md:flex flex-col md:flex-row md:items-center md:space-x-6 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-lg md:shadow-none py-4 md:py-0 px-4 md:px-0">
+                <a href="/energielabel" class="block py-2 text-gray-700 hover:text-[hsl(84,75%,55%)] md:inline-block">Energielabel</a>
+                <a href="/fotografie" class="block py-2 text-gray-700 hover:text-[hsl(84,75%,55%)] md:inline-block">Fotografie</a>
+                <a href="/blog" class="block py-2 text-gray-700 hover:text-[hsl(84,75%,55%)] md:inline-block">Blog</a>
+                <a href="/#contact" class="block py-2 text-gray-700 hover:text-[hsl(84,75%,55%)] md:inline-block">Contact</a>
+                <a href="/energielabel" class="mt-4 md:mt-0 px-5 py-2 bg-[hsl(84,75%,55%)] text-white font-semibold rounded-lg hover:bg-[hsl(84,65%,50%)] transition duration-300 inline-block text-center">Aanvragen</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12">
+        <!-- Breadcrumb -->
+        <nav class="text-sm text-gray-600 mb-6" aria-label="Broodkruimels">
+            <ol class="list-none p-0 inline-flex">
+                <li class="flex items-center">
+                    <a href="/" class="hover:text-[hsl(84,75%,55%)]">Home</a>
+                    <svg class="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="/blog" class="hover:text-[hsl(84,75%,55%)]">Blog</a>
+                    <svg class="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                </li>
+                <li>
+                    <span class="text-[hsl(84,75%,55%)]">WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald?</span>
+                </li>
+            </ol>
+        </nav>
+
+        <article class="bg-white p-6 md:p-10 rounded-lg shadow-md">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">WWS Puntentelling Uitleg: Hoe Wordt Je Maximale Huurprijs Bepaald?</h1>
+            <p class="text-gray-600 text-sm mb-8">Door <span class="font-semibold">Paulo</span> | Label & Lens | Gepubliceerd: maart 2026</p>
+
+            <div class="prose max-w-none">
+                <p class="text-lg mb-6">De WWS (Woningwaarderingsstelsel) puntentelling is een cruciaal instrument in Nederland dat de maximale huurprijs van een huurwoning bepaalt. Het systeem kent punten toe aan diverse kenmerken van een woning, zoals de oppervlakte, het energielabel, de kwaliteit van keuken en sanitair, en de WOZ-waarde. Door deze punten op te tellen, wordt de totale woningwaarde in punten uitgedrukt, wat vervolgens direct correleert met een maximale maandelijkse huurprijs. Dit stelsel beschermt huurders tegen te hoge huren en biedt verhuurders een duidelijke richtlijn voor een eerlijke prijsstelling, vooral binnen de sociale huursector.</p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mt-10 mb-4">Wat Telt Mee in de WWS Puntentelling?</h2>
+                <p class="mb-4">De WWS puntentelling is een gedetailleerd systeem dat verder kijkt dan alleen de vierkante meters. Het omvat een breed scala aan factoren die de kwaliteit en het comfort van een woning beïnvloeden. Elk van deze factoren draagt bij aan het totale aantal punten en daarmee aan de maximale huurprijs.</p>
+                
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-800 mt-6 mb-3">Oppervlakte en Indeling</h3>
+                <p class="mb-4">De woonoppervlakte is een van de meest bepalende factoren. Hoe groter de woning, hoe meer punten er worden toegekend. Hierbij wordt niet alleen gekeken naar het totale aantal vierkante meters, maar ook naar de functionaliteit van de ruimtes. Een efficiënte indeling met voldoende daglichttoetreding kan positief bijdragen. Ook de aanwezigheid van buitenruimtes zoals een balkon, tuin of dakterras levert extra punten op, afhankelijk van de grootte en bereikbaarheid. Denk hierbij aan specifieke tabellen die per vierkante meter punten toekennen aan woonruimte, en een vast aantal punten voor een buitenruimte tot een bepaalde oppervlakte.</p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-800 mt-6 mb-3">Het Energielabel van de Woning</h3>
+                <p class="mb-4">Sinds enkele jaren speelt het energielabel een steeds belangrijkere rol in de WWS puntentelling. Een woning met een gunstig energielabel (A, B of C) krijgt aanzienlijk meer punten dan een woning met een ongunstig label (D, E, F of G). Dit stimuleert verhuurders om te investeren in energiebesparende maatregelen, wat niet alleen goed is voor het milieu, maar ook resulteert in lagere stookkosten voor de huurder. Een woning met energielabel A++++ kan bijvoorbeeld wel 100 punten extra opleveren ten opzichte van een G-label. Het is dan ook van groot belang om een actueel en correct energielabel te hebben. Meer weten over de verplichting van een energielabel? Lees dan onze blog over <a href="/blog/energielabel-verplicht-wanneer" class="text-[hsl(84,75%,55%)] hover:underline">wanneer een energielabel verplicht is</a>.</p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-800 mt-6 mb-3">Kwaliteit van Keuken en Sanitair</h3>
+                <p class="mb-4">De aanwezigheid en kwaliteit van voorzieningen zoals de keuken en het sanitair zijn eveneens van invloed. Een complete keuken met inbouwapparatuur (koelkast, kookplaat, afzuigkap, oven/magnetron) en een moderne badkamer met douche, toilet en wastafel leveren meer punten op dan basisvoorzieningen. Ook de staat van onderhoud en de leeftijd van deze voorzieningen worden meegewogen. Een recent gerenoveerde badkamer of keuken zal meer punten opleveren dan een verouderde variant. Er zijn specifieke puntentabellen voor de aanwezigheid van een toilet, douche, en de luxe van de keukenapparatuur.</p>
+
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-800 mt-6 mb-3">Overige Factoren</h3>
+                <p class="mb-4">Naast de bovengenoemde factoren tellen ook de aanwezigheid van verwarming, de isolatiegraad van de woning, en de aanwezigheid van een tweede toilet of extra bergruimte mee. De WOZ-waarde van de woning speelt ook een rol, met name voor woningen in de vrije sector, maar ook voor sociale huurwoningen kan een deel van de WOZ-waarde worden meegewogen. De exacte puntentelling is complex en vereist vaak een professionele inspectie om alle details correct vast te leggen. Voor een nauwkeurige berekening van de punten van jouw woning, kun je een <a href="/wws-puntentelling/" class="text-[hsl(84,75%,55%)] hover:underline">WWS puntentelling laten uitvoeren</a> door een expert.</p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mt-10 mb-4">Puntengrenzen: Sociale Huur vs. Vrije Sector</h2>
+                <p class="mb-4">Het WWS is primair ontworpen voor de regulering van de sociale huursector. Woningen met een puntentelling onder een bepaalde grens vallen automatisch in de sociale huursector, wat betekent dat de maximale huurprijs wettelijk is vastgesteld en jaarlijks wordt geïndexeerd. Deze grens, de zogenaamde liberalisatiegrens, is van cruciaal belang. In 2026 zal deze grens naar verwachting verder worden aangescherpt, wat betekent dat meer woningen onder het sociale huurregime kunnen vallen.</p>
+                <p class="mb-4">Woningen die boven de liberalisatiegrens uitkomen, vallen in de vrije sector. Hier is de huurprijs in principe vrij onderhandelbaar tussen huurder en verhuurder, hoewel er plannen zijn om ook in de vrije sector meer regulering in te voeren voor middenhuursegmenten. Het is voor zowel huurders als verhuurders essentieel om te weten in welke sector een woning valt, aangezien dit grote gevolgen heeft voor de rechten en plichten van beide partijen. Een woning die net boven de grens zit, kan door kleine aanpassingen (zoals een beter energielabel) meer waard worden, of juist door een te lage puntentelling in de sociale sector terechtkomen.</p>
+
+                <div class="bg-primary-green bg-opacity-10 border-l-4 border-primary-green p-4 my-8 rounded-lg">
+                    <p class="font-semibold text-gray-900 mb-2">💡 Tip van Label & Lens:</p>
+                    <p class="text-gray-700">Wist je dat een verbetering van je energielabel significant meer punten kan opleveren voor de WWS puntentelling? Dit kan het verschil maken tussen sociale huur en vrije sector, of simpelweg een hogere maximale huurprijs rechtvaardigen. Overweeg altijd energiebesparende maatregelen! Meer informatie over de kosten van een energielabel vind je in onze blog over <a href="/blog/energielabel-kosten-2026" class="text-[hsl(84,75%,55%)] hover:underline">energielabel kosten in 2026</a>.</p>
+                </div>
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mt-10 mb-4">De Impact van de WOZ-waarde</h2>
+                <p class="mb-4">De WOZ-waarde (Waardering Onroerende Zaken) van een woning speelt een belangrijke, zij het soms controversiële, rol in de WWS puntentelling. Sinds 2015 telt de WOZ-waarde voor een deel mee in de puntentelling, met name om de waarde van de locatie van de woning te reflecteren. Dit betekent dat een identieke woning in een gewilde, dure wijk meer punten kan krijgen dan dezelfde woning in een minder populaire omgeving, puur gebaseerd op de grondwaarde.</p>
+                <p class="mb-4">De weging van de WOZ-waarde is echter gemaximaliseerd om te voorkomen dat de huurprijs van sociale huurwoningen in dure steden de pan uit rijst. Voor woningen in de vrije sector is de invloed van de WOZ-waarde vaak nog groter, omdat deze direct de marktwaarde van de woning weerspiegelt. Het is belangrijk om te controleren of de WOZ-waarde die wordt gebruikt in de puntentelling correct is, aangezien een te hoge WOZ-waarde kan leiden tot een onterecht hoge puntentelling en daarmee een hogere maximale huurprijs.</p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mt-10 mb-4">Liberalisatiegrens 2026: Wat Verandert Er?</h2>
+                <p class="mb-4">De liberalisatiegrens is de grens die bepaalt of een woning in de sociale huursector valt of in de vrije sector. Deze grens wordt jaarlijks vastgesteld en is gekoppeld aan het aantal WWS-punten. Voor 2026 zijn er plannen om deze grens verder aan te passen, met als doel meer woningen onder het reguliere huurrecht te brengen en de betaalbaarheid te verbeteren. Dit betekent dat woningen die voorheen net in de vrije sector vielen, mogelijk terugvallen in de sociale sector, met een wettelijk vastgestelde maximale huurprijs.</p>
+                <p class="mb-4">Deze wijzigingen kunnen aanzienlijke gevolgen hebben voor zowel verhuurders als huurders. Verhuurders moeten mogelijk hun huurprijzen aanpassen, terwijl huurders meer bescherming krijgen tegen excessieve huurprijzen. Het is cruciaal om op de hoogte te blijven van de actuele liberalisatiegrens en de bijbehorende puntentelling om verrassingen te voorkomen. Een actuele WWS puntentelling is dan ook onmisbaar voor iedereen die betrokken is bij de verhuur van woonruimte.</p>
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mt-10 mb-4">Huurverlaging Aanvragen op Basis van WWS</h2>
+                <p class="mb-4">Als huurder heb je het recht om de huurprijs van je woning te laten toetsen aan het WWS. Als blijkt dat de huurprijs die je betaalt hoger is dan de maximaal toegestane huurprijs volgens de puntentelling, kun je een verzoek tot huurverlaging indienen bij je verhuurder. Dit is met name relevant voor woningen in de sociale huursector, maar ook voor woningen die net boven de liberalisatiegrens vallen en waarvan de puntentelling mogelijk onjuist is vastgesteld.</p>
+                <p class="mb-4">Het proces begint met het laten uitvoeren van een onafhankelijke WWS puntentelling. Met dit rapport in handen kun je de verhuurder schriftelijk verzoeken de huurprijs te verlagen. Als de verhuurder niet meewerkt, kun je de Huurcommissie inschakelen. De Huurcommissie zal dan een bindende uitspraak doen over de redelijkheid van de huurprijs. Het is belangrijk om dit proces zorgvuldig te doorlopen en alle benodigde documentatie, zoals het WWS-rapport en de huurovereenkomst, paraat te hebben. Een professionele puntentelling van Label & Lens kan je hierbij helpen en je voorzien van een gedegen rapportage.</p>
+
+                <p class="mt-8 text-lg">De WWS puntentelling is een complex, maar essentieel systeem voor de Nederlandse huurmarkt. Het biedt een gestructureerde methode om de waarde van een woning te bepalen en draagt bij aan een eerlijke en transparante huurprijsvorming. Of je nu verhuurder of huurder bent, inzicht in dit systeem is van onschatbare waarde. Bij Label & Lens staan we klaar om je te helpen met een nauwkeurige WWS puntentelling, zodat je altijd zeker bent van een correcte waardebepaling van je woning.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="bg-[hsl(84,75%,55%)] py-12 md:py-16 mt-12">
+        <div class="container mx-auto px-4 text-center text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Hulp nodig met jouw puntentelling?</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">Laat Label & Lens de WWS puntentelling van jouw woning uitvoeren. Wij zorgen voor een nauwkeurige en betrouwbare waardebepaling, zodat je precies weet waar je aan toe bent.</p>
+            <a href="/wws-puntentelling/" class="inline-block bg-white text-[hsl(84,75%,55%)] font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 text-lg">
+                Laat je puntentelling uitvoeren &rarr;
+            </a>
+            <p class="mt-6 text-md">Of bel ons direct: <a href="tel:+31643735719" class="underline hover:no-underline">+31 6 43 73 57 19</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10 md:py-16">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Column 1: Logo -->
+            <div>
+                <a href="/" class="text-2xl font-bold text-white block mb-4">Label & Lens</a>
+                <p class="text-sm">Jouw partner voor energieadvies en vastgoedfotografie.</p>
+            </div>
+
+            <!-- Column 2: Navigatie -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Navigatie</h3>
+                <ul class="space-y-2">
+                    <li><a href="/energielabel" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Energielabel</a></li>
+                    <li><a href="/fotografie" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Fotografie</a></li>
+                    <li><a href="/blog" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Blog</a></li>
+                    <li><a href="/#contact" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Diensten -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Diensten</h3>
+                <ul class="space-y-2">
+                    <li><a href="/energielabel" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Energielabel aanvragen</a></li>
+                    <li><a href="/wws-puntentelling" class="hover:text-[hsl(84,75%,55%)] transition duration-300">WWS Puntentelling</a></li>
+                    <li><a href="/fotografie" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Vastgoedfotografie</a></li>
+                    <li><a href="/advies" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Duurzaamheidsadvies</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Contact -->
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Contact</h3>
+                <ul class="space-y-2">
+                    <li><a href="mailto:info@labelenlens.nl" class="hover:text-[hsl(84,75%,55%)] transition duration-300">info@labelenlens.nl</a></li>
+                    <li><a href="tel:+31643735719" class="hover:text-[hsl(84,75%,55%)] transition duration-300">+31 6 43 73 57 19</a></li>
+                    <li>KVK: 87532638</li>
+                    <li><a href="/privacybeleid" class="hover:text-[hsl(84,75%,55%)] transition duration-300">Privacybeleid</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-10 pt-8 border-t border-gray-700 text-center text-sm text-gray-500">
+            © 2026 Label & Lens. Alle rechten voorbehouden.
+        </div>
+    </footer>
+
+    <!-- Vanilla JS for Mobile Menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const button = document.getElementById('mobile-menu-button');
+            const navLinks = document.getElementById('main-nav-links');
+
+            button.addEventListener('click', function () {
+                navLinks.classList.toggle('hidden');
+                navLinks.classList.toggle('flex');
+                navLinks.classList.toggle('flex-col'); // Ensure it stacks vertically when open
+            });
+
+            // Close menu when a link is clicked (for single-page navigation or general UX)
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!navLinks.classList.contains('hidden')) {
+                        navLinks.classList.add('hidden');
+                        navLinks.classList.remove('flex');
+                        navLinks.classList.remove('flex-col');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
